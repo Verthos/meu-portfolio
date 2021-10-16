@@ -13,10 +13,10 @@ export function Footer() {
             <img src={img} alt="avatar" />
 
 
-            <p>If you have a website or mobile app idea in mind or
-                you need some advice about <br /> product design, feel free to contact me.
-                Currently my time books quickly, so the sooner <br /> you write, 
-                the better it is for both of us.
+            <p> Se gostou do meu trabalho e tem algum projeto em mente ou vaga para desenvoldedor Fron-end, 
+                sinta-se à vontade para me contatar.
+                Atualmente trabalho em periodo integral, mas responderei assim que possível.<br /> 
+                
             </p>
             <SocialDiv>
                 <a target="_blank" rel="noreferrer" className ="linkedin" href="https://www.linkedin.com/in/william-kszan-79b292105/">

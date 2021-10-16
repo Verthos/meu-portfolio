@@ -1,28 +1,22 @@
 import { StyledDiv } from "./styles";
-
-
-
+import bispo from "../../assets/chess/bispo.png"
+import dama from "../../assets/chess/dama.png"
+import cavalo from "../../assets/chess/cavalo.png"
 
 export function MyWork() {
     return( 
         <StyledDiv>
-            <section>
-                <span>QUEM  <br />SOU EU</span>
-            </section>
+            <img className="bispo" src={bispo} alt="bispo" />
+            <img className="dama" src={dama} alt="dama" />
+            <img className="cavalo" src={cavalo} alt="dama" />
 
 
             <div>
 
-                <nav>
-                    <button>←</button>
-                    <button>→</button>
-
-
-                </nav>
                 <p>
-                    <h2>What My Clients Says</h2>
                     <h1>Quem sou eu<span>?</span></h1>
-                    Sou um apaixonado por Xadrêz e Tecnologia. Venho estudando Front-end diariamente para
+                    Sou um apaixonado por Xadrêz, cafés e Tecnologia. Venho estudando <br />
+                    Front<span><b>-</b></span>end e ferramentas relacionadas diariamente para
                     ingressar no mercado de trabalho como desenvolvedor. <br />
                     Sei que ainda há um mar de conhecimento para estudar, 
                     mas sabendo o quão comprometido e esforçado sou, posso garantir que atenderei às espectativas 
@@ -30,14 +24,8 @@ export function MyWork() {
 
                 </p>
 
-
             </div>
-            
-
-
-
-
-            
+                    
         </StyledDiv>
         
     )

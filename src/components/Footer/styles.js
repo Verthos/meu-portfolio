@@ -11,6 +11,8 @@ export const StyledFooter = styled.footer`
     display: grid;
 
     p{
+        font-size: 1.2rem;
+        width: 25vw;
         color: var(--shape);
         text-align: center;
         line-height: 2rem;
@@ -19,7 +21,7 @@ export const StyledFooter = styled.footer`
     }
 
     h1{
-
+        font-size:3rem;
         color: var(--shape);
         text-align: center;
     }

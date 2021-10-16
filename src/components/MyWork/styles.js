@@ -10,13 +10,47 @@ export const StyledDiv = styled.div`
     justify-content: left;
     display: grid;
 
+
+    .bispo{
+        opacity: 5%;
+        position: absolute;
+        transform: skew(30deg, -30deg);
+        right: 10vw;
+    }
+
+    .dama{
+        opacity: 5%;
+        position: absolute;
+        transform: skew(120deg, -120deg);
+        right: 10vw;
+        top: 5rem; 
+        width: 20rem;
+        
+    }
+
+    .cavalo{
+        opacity: 5%;
+        position: absolute;
+        transform: skew(120deg, -120deg);
+        left: 15vw;
+        top: 10rem; 
+        width: 20rem;
+    }
+
+
+
+
+
+
     p{
+        font-size: 1.5rem;
         color: var(--black);
         text-align: left;
         line-height: 2rem;
         margin-bottom: 5rem;
         margin-top: 1rem;
     }
+
 
 div{
 
@@ -134,3 +168,5 @@ export const Container = styled.div`
         border-radius: 1rem;
     }
 `
+
+
