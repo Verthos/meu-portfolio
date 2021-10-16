@@ -1,22 +1,23 @@
 import { GlobalStyle } from "./styles/global";
 import { Footer} from "./components/Footer"
-import { MyBlog } from "./components/MyBlog";
 import { MyWork } from "./components/MyWork";
+import { WhoAmI } from "./components/WhoAmI";
+import { StyledHeader } from "./components/Header/styles";
 
 
 
 export function App() {
   return (
     <>
-    <div>
-      Hello World
-    </div>
 
-    <MyWork></MyWork>
-    <MyBlog></MyBlog>
-    <Footer></Footer>
+    <StyledHeader/>
+    <WhoAmI/>
+    <MyWork/>
+    <Footer/>
 
-    <GlobalStyle></GlobalStyle>
+
+    <GlobalStyle/>
+
     </>
   );
 }

@@ -41,7 +41,7 @@ export const StyledFooter = styled.footer`
 
     }
     span{
-        color: var(--blue);
+        color: var(--cyan);
     }    
 `
 
