@@ -7,44 +7,15 @@ export const StyledDiv = styled.div`
     padding-left: 10rem; 
     padding-top: 4rem;
     align-items: center;
-    justify-content: right;
-    display: grid;
+    justify-content: left;
+    display: flex;
 
-
-    .bispo{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(30deg, -30deg);
-        right: 5vw;
-    }
-
-    .dama{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(120deg, -120deg);
-        right: 10vw;
-        top: 5rem; 
-        width: 15rem;
-        
-    }
-
-    .cavalo{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(120deg, -120deg);
-        left: 15vw;
-        top: 30rem; 
-        width: 20rem;
-    }
-
-
-
+    
 
     p{
         font-size: 1.5rem;
         color: var(--black);
         text-align: left;
-        line-height: 2rem;
         margin-bottom: 5rem;
         margin-top: 1rem;
     }
@@ -52,15 +23,13 @@ export const StyledDiv = styled.div`
 
     div{
 
-    width: 50vw;
+        width: 40vw;
 
         p{
-            width: 40vw;
             h1{
-                line-height: 10rem;
                 color: var(--black);
                 text-align: left;
-                font-size: 5rem;
+                font-size: 6rem;
             }
 
             h2{
@@ -75,32 +44,13 @@ export const StyledDiv = styled.div`
     }    
 
 
-    p{
-
-        h1{
-            line-height: 10rem;
-            color: var(--black);
-            text-align: left;
-            font-size: 5rem;
-        }
-
-        h2{
-            
-            font-weight: normal;
-            color: var(--black);
-            text-align: left;
-            line-height: 1rem;
-
-        }
-    }
-
-
     span{
         color: var(--cyan);
     }    
 
 
     section{
+
         span{
             font-weight: bold;
             left: 25vw;
@@ -112,5 +62,19 @@ export const StyledDiv = styled.div`
             
         }
     }
+`
+
+export const StyledButton = styled.button`
+    font-size: 0.8rem;
+    margin: 0 auto;
+    color: var(--shape);
+    background: var(--blue);
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 10rem;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 1px var(--blue);
+    margin-bottom: 5rem;
 `
 

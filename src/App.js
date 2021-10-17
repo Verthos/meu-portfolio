@@ -2,15 +2,17 @@ import { GlobalStyle } from "./styles/global";
 import { Footer} from "./components/Footer"
 import { MyWork } from "./components/MyWork";
 import { WhoAmI } from "./components/WhoAmI";
-import { StyledHeader } from "./components/Header/styles";
+import { Header } from "./components/Header";
+import { Home } from "./components/HomePage";
 
 
 
 export function App() {
   return (
-    <>
+    <main>
 
-    <StyledHeader/>
+    <Header/>
+    <Home/>
     <WhoAmI/>
     <MyWork/>
     <Footer/>
@@ -18,7 +20,7 @@ export function App() {
 
     <GlobalStyle/>
 
-    </>
+    </main>
   );
 }
 

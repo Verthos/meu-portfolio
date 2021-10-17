@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
+    width: 100vw;
     height: 120vh;
     padding-top: 4rem;
     align-items: center;
@@ -58,13 +59,13 @@ export const StyledButton = styled.button`
     font-size: 0.8rem;
     margin: 0 auto;
     color: var(--shape);
-    background: var(--blue);
+    background: var(--orange);
     border-radius: 3rem;
     padding: 1rem;
     width: 10rem;
     border: none;
     font-weight: bold;
-    box-shadow: 1px 1px 10px 1px var(--cyan);
+    box-shadow: 1px 1px 10px 1px var(--orange);
     margin-bottom: 5rem;
 `
 

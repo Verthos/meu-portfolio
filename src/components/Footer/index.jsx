@@ -1,19 +1,19 @@
 import { StyledFooter, SocialDiv } from "./styles";
-import img from "../../assets/avatar.jpg";
+import img from "../../assets/me_color.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 
 export function Footer() {
     return( 
-        <StyledFooter>
+        <StyledFooter id="contato">
 
             <h1>Vamos trabalhar juntos<span>?</span></h1>
 
             <img src={img} alt="avatar" />
 
 
-            <p> Se gostou do meu trabalho e tem algum projeto em mente ou vaga para desenvoldedor Fron-end, 
+            <p> Se gostou do meu trabalho e tem algum projeto em mente ou vaga para desenvoldedor Fron-end,<br />  
                 sinta-se à vontade para me contatar.
                 Atualmente trabalho em periodo integral, mas responderei assim que possível.<br /> 
                 

@@ -1,45 +1,37 @@
 import styled from "styled-components"
 
 export const StyledFooter = styled.footer`
-
+    
     background: var(--gray);
-    width: 100vw;
-    height: 75vh;
+    width: 100%;
+    height: 60vh;
     bottom: 0;
-    padding-top: 5rem;
+    padding-top: 2rem;
     justify-content: center;
     display: grid;
 
-    p{
+    p {
         font-size: 1.2rem;
-        width: 25vw;
         color: var(--shape);
         text-align: center;
         line-height: 2rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+        margin: 1rem;
+
     }
 
     h1{
-        font-size:3rem;
+        font-size: 3rem;
         color: var(--shape);
         text-align: center;
     }
 
     img{
-        width: 7rem;
-        
-        border-radius: 2rem;
+        width: 10rem;
+        border-radius: 10rem;
         margin: 0 auto;
-        
-
     }
 
     
-
-    div{
-
-    }
     span{
         color: var(--cyan);
     }    

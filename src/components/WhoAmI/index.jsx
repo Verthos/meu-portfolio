@@ -5,7 +5,7 @@ import cavalo from "../../assets/chess/cavalo.png"
 
 export function WhoAmI() {
     return( 
-        <StyledDiv>
+        <StyledDiv id="sobre">
             <img className="bispo" src={bispo} alt="bispo" />
             <img className="cavalo" src={cavalo} alt="dama" />
             <img className="dama" src={dama} alt="dama" />
@@ -14,8 +14,8 @@ export function WhoAmI() {
 
                 <p>
                     <h1>Quem sou eu<span>?</span></h1>
-                    Sou um apaixonado por Xadrêz, cafés e Tecnologia. Venho estudando diariamente
-                    Front<span><b>-</b></span>end e ferramentas relacionadas  para
+                    Meu nome é William, tenho 28 anos e sou um apaixonado por Xadrêz, cafés e Tecnologia. Venho estudando diariamente
+                    <b> Front<span>-</span>end</b> e ferramentas relacionadas  para
                     ingressar no mercado de trabalho como desenvolvedor. <br />
                     Sei que ainda há um mar de conhecimento para estudar, 
                     mas sabendo o quão comprometido e esforçado sou, posso garantir que atenderei às espectativas 

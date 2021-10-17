@@ -41,7 +41,6 @@ body {
     width: 100vw;
     background: var(--background);
     -webkit-font-smoothing: antialiased;
-    
 }
 
 
