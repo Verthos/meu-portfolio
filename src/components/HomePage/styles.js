@@ -56,7 +56,7 @@ export const StyledDiv = styled.div`
             left: 25vw;
             position: absolute;
             font-size: 10rem;
-            opacity: 10%;
+            opacity: 5%;
             text-align: left;
             color: var(--black);
             

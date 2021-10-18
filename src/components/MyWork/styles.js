@@ -2,25 +2,24 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    height: 120vh;
+    height: 130vh;
     padding-top: 4rem;
     align-items: center;
     justify-content: center;
     display: grid;
 
-
     p{
         h1{
             line-height: 0.7;
             color: var(--black);
-            text-align: left;
+            text-align: right;
             font-size: 5rem;
         }
 
         h2{
             font-weight: normal;
             color: var(--black);
-            text-align: left;
+            text-align: right;
 
         }
     }
@@ -31,16 +30,14 @@ export const StyledDiv = styled.div`
         color: var(--blue);
     }    
 
-
     section{
         span{
             font-weight: bold;
             position: absolute;
             font-size: 10rem;
-            opacity: 15%;
-            text-align: center;
+            opacity: 5%;
             color: var(--black);
-            text-shadow: 10px 10px 10px var(--black);
+            right: 20rem;
         }
     }
 `
@@ -57,16 +54,22 @@ export const StyledButton = styled.button`
     font-weight: bold;
     box-shadow: 1px 1px 10px 1px var(--cyan);
     margin-bottom: 5rem;
+    
+
+
 `
 
 export const Container = styled.div`
     display: flex;
+    flex-wrap: wrap;
     grid-gap: 3rem;
-
+    max-width: 70vw;
+    justify-content: center;
+    
 
     img{
-        height: 25rem;
-        width: 25rem;
+        height: 20rem;
+        width: 20rem;
         border-radius: 1rem;
     }
 `

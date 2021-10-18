@@ -7,22 +7,21 @@ import bonsai from "../../assets/bonsai.jpg"
 
 export function MyWork() {
     return( 
-        <StyledDiv>
+        <StyledDiv id="portfolio">
             <section>
                 <span>Projetos</span>
             </section>
             <p>
-                <h2>Meus</h2>
-                <h1>Projetos<span>.</span></h1>
+                <h1>Meus projetos<span>.</span></h1>
             </p>
             
-
-            <p></p>
-
             <Container>
                 <img src={flor} alt="planta flor" />
                 <img src={suculenta} alt="planta suculenta" />
                 <img src={bonsai} alt="planta bonsai" />
+                <img src={bonsai} alt="planta bonsai" />
+                <img src={suculenta} alt="planta suculenta" />
+                <img src={flor} alt="planta flor" />
             </Container>
 
 

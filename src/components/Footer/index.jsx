@@ -15,7 +15,7 @@ export function Footer() {
 
 
             <p> {texts.footer}</p>
-            
+
             <SocialDiv>
                 <a target="_blank" rel="noreferrer" className ="linkedin" href="https://www.linkedin.com/in/william-kszan-79b292105/">
                     <FontAwesomeIcon icon={faLinkedin} size="3x"/>
@@ -26,6 +26,7 @@ export function Footer() {
                 <a target="_blank" rel="noreferrer" className ="instagram" href="https://www.instagram.com/wilkszan/">
                     <FontAwesomeIcon icon={faInstagram} size="3x"/>
                 </a>
+
             </SocialDiv>
             
         </StyledFooter>

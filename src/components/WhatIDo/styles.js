@@ -37,7 +37,7 @@ export const StyledDiv = styled.div`
             font-weight: bold;
             position: absolute;
             font-size: 10rem;
-            opacity: 10%;
+            opacity: 5%;
             text-align: left;
             color: var(--black);
         }
