@@ -10,30 +10,30 @@ export function Skills() {
             <section>
                 <span>HABILIDADES</span>
             </section>
-            <p>
+            
                 <h2>Minhas</h2>
                 <h1>Habilidades<span>.</span></h1>              
-            </p>
+
 
 
             <Container>
 
                 <ul>
-                    <h1>Linguagens<span>.</span></h1>
+                    <p>Linguagens<span>.</span></p>
                     {dataJson.skills.linguagens.map((linguagem) => {return(
                         <li>{linguagem}</li>
                     )})}
                 </ul>
 
                 <ul>
-                    <h1>Frameworks<span>.</span></h1>
+                    <p>Frameworks<span>.</span></p>
                     {dataJson.skills.frameworks.map((linguagem) => {return(
                         <li>{linguagem}</li>
                     )})}
                 </ul>
 
                 <ul>
-                    <h1>Ferramentas diversas<span>.</span></h1>
+                    <p>Ferramentas diversas<span>.</span></p>
 
                     {dataJson.skills.ferramentas.map((linguagem) => {return(
                         <li>{linguagem}</li>
@@ -42,7 +42,7 @@ export function Skills() {
                 </ul>
 
                 <ul>
-                    <h1>Softskills<span>.</span></h1>
+                    <p>Softskills<span>.</span></p>
                     {dataJson.skills.softskills.map((linguagem) => {return(
                         <li>{linguagem}</li>
                     )})}

@@ -2,29 +2,31 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    width: 100vw;
     height: 70vh;
     padding: 4rem;
     padding-left: 10rem;
     justify-content: center;
+    height: min-content;
 
-
-    p{
-        height: min-content;
-        h1{
-            line-height: 0.7;
-            color: var(--black);
-            text-align: left;
-            font-size: 5rem;
+    @media (max-width: 600px) {
+            padding-left: 2rem;
         }
-
-        h2{
-            font-weight: normal;
-            color: var(--black);
-            text-align: left;
-
-        }
+        
+    h1{
+        line-height: 0.7;
+        color: var(--black);
+        text-align: left;
+        font-size: 5rem;
     }
+
+    h2{
+        font-weight: normal;
+        color: var(--black);
+        text-align: left;
+
+    }
+
+    
 
 
 
@@ -39,8 +41,12 @@ export const StyledDiv = styled.div`
             font-size: 10rem;
             opacity: 5%;
             text-align: left;
-            color: var(--black);
+            color: var(--black);        
         }
+        @media (max-width: 500px) {
+            display: none;
+        }
+        
     }
 `
 
@@ -49,9 +55,17 @@ export const Container = styled.div`
     display: flex;
     grid-gap: 5rem;
 
+
+    @media (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 2rem;
+        }
+
     
     ul{
-        h1{
+        p{
+            font-weight: bold;
             font-size: 2rem;
         }
 

@@ -8,21 +8,32 @@ export const StyledDiv = styled.div`
     justify-content: center;
     display: grid;
 
-    p{
-        h1{
-            line-height: 0.7;
-            color: var(--black);
-            text-align: right;
-            font-size: 5rem;
-        }
 
-        h2{
-            font-weight: normal;
-            color: var(--black);
-            text-align: right;
-
-        }
+    h1{
+        line-height: 0.7;
+        color: var(--black);
+        text-align: right;
+        font-size: 5rem;
     }
+
+    h2{
+        font-weight: normal;
+        color: var(--black);
+        text-align: right;
+
+    }
+    
+    @media (max-width: 600px) {
+            h1{
+                text-align: left;
+                margin-bottom: 3rem;
+            };
+            h2{
+                text-align: left;
+            }
+            display: flex;
+            flex-direction: column;
+        }
 
 
 
@@ -39,6 +50,10 @@ export const StyledDiv = styled.div`
             color: var(--black);
             right: 20rem;
         }
+
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
 `
 
@@ -52,7 +67,6 @@ export const StyledButton = styled.button`
     width: 10rem;
     border: none;
     font-weight: bold;
-    box-shadow: 1px 1px 10px 1px var(--cyan);
     margin-bottom: 5rem;
     
     a{
@@ -60,6 +74,12 @@ export const StyledButton = styled.button`
         text-decoration: none;
         text-decoration-color: none;
     }
+
+
+    @media (max-width: 600px) {
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+        }
 
 `
 
@@ -69,7 +89,7 @@ export const Container = styled.div`
     grid-gap: 3rem;
     height: min-content;
     max-width: 70vw;
-    justify-content: center;
+
     
 
     img{

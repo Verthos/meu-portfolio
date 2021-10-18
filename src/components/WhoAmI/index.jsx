@@ -12,11 +12,8 @@ export function WhoAmI() {
             </section>
 
             <div>
-                <p>
                     <h1>Quem sou eu<span>?</span></h1>
-                    {texts.quemsou}
-
-                </p>
+                    <p>{texts.quemsou}</p>
             </div>
                     
         </StyledDiv>

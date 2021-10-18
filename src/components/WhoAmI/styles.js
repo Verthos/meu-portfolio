@@ -2,14 +2,19 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding-left: 5rem; 
     padding-top: 4rem;
     align-items: center;
     justify-content: right;
     display: grid;
 
+    @media(max-width: 600px){
+            padding-left: 2rem;
+            justify-content: left;
+
+            
+        }
 
     p{
         font-size: 1.5rem;
@@ -25,23 +30,32 @@ export const StyledDiv = styled.div`
 
     width: 50vw;
 
-        p{
-            width: 40vw;
-            h1{
-                line-height: 10rem;
-                color: var(--black);
-                text-align: left;
-                font-size: 5rem;
-            }
+        width: 40vw;
+        h1{
+            line-height: 10rem;
+            color: var(--black);
+            text-align: left;
+            font-size: 5rem;
+        }
 
-            h2{
+        h2{
                 
-                font-weight: normal;
-                color: var(--black);
-                text-align: left;
-                line-height: 1rem;
+            font-weight: normal;
+            color: var(--black);
+            text-align: left;
+            line-height: 1rem;
 
-            }
+        }
+
+
+        @media(max-width: 600px){
+            width: 80vw;
+            h1{
+            line-height: 4rem;
+            color: var(--black);
+            text-align: left;
+            font-size: 5rem;
+        }
         }
     }    
 
@@ -83,6 +97,11 @@ export const StyledDiv = styled.div`
             color: var(--black);
             
         }
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
+
+    
 `
 

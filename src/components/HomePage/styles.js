@@ -2,13 +2,18 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    width: 100vw;
     height: 100vh;
     padding-left: 10rem; 
     padding-top: 4rem;
     align-items: center;
     justify-content: left;
     display: flex;
+    @media (max-width: 600px) {
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+
+    
 
     
     .bispo{
@@ -18,6 +23,9 @@ export const StyledDiv = styled.div`
         width: 30rem;
         right: 10vw;
         top: 20vw;
+        @media (max-width: 1200px) {
+            display: none;
+        }
     }
 
     .dama{
@@ -27,6 +35,9 @@ export const StyledDiv = styled.div`
         right: 10vw;
         top: 5rem; 
         width: 10rem;
+        @media (max-width: 1200px) {
+            display: none;
+        }
         
     }
 
@@ -37,6 +48,13 @@ export const StyledDiv = styled.div`
         left: 20vw;
         top: 30rem; 
         width: 15rem;
+        @media (max-width: 1200px) {
+            width: 25rem;
+            transform: none;
+            top: 8rem;
+            left: 10vw;
+            opacity: 10%;
+        }
     }
 
     
@@ -45,8 +63,11 @@ export const StyledDiv = styled.div`
         font-size: 1.5rem;
         color: var(--black);
         text-align: left;
-        margin-bottom: 5rem;
-        margin-top: 1rem;
+        
+        h1{
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+        }
     }
 
 
@@ -54,23 +75,31 @@ export const StyledDiv = styled.div`
 
         width: 40vw;
 
-        p{
-            h1{
-                color: var(--black);
-                text-align: left;
-                font-size: 6rem;
-            }
-
-            h2{
-                
-                font-weight: normal;
-                color: var(--black);
-                text-align: left;
-                line-height: 1rem;
-
-            }
+        h1{
+            color: var(--black);
+            text-align: left;
+            font-size: 6rem;
         }
-    }    
+
+        h2{
+                
+            font-weight: normal;
+            color: var(--black);
+            text-align: left;
+            line-height: 1rem;
+
+        }
+
+    
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 4rem;
+            }
+            width: 80%;
+        }
+
+    }
+        
 
 
     span{
@@ -88,7 +117,6 @@ export const StyledDiv = styled.div`
             opacity: 5%;
             text-align: left;
             color: var(--black);
-            
         }
     }
 `

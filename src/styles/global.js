@@ -38,7 +38,8 @@ html {
 
 
 body {
-    width: 100vw;
+    
+    width: calc(100vw - (100vw - 100%));
     background: var(--background);
     -webkit-font-smoothing: antialiased;
 }

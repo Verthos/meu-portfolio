@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
     position: fixed;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     background: var(--gray);
     z-index: 1;
     display: flex;
@@ -13,10 +13,20 @@ export const StyledHeader = styled.header`
         cursor: pointer;
         text-decoration: none;
         margin: 0 1rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: var(--shape);
         &:first-child{
             margin-left: 10rem;
+        }
+    }
+
+    @media(max-width: 600px){
+        a{
+            &:first-child{
+            margin-left: 2rem;
+        }
+
+        justify-content: space-around;
         }
     }
 

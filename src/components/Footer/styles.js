@@ -17,8 +17,11 @@ export const StyledFooter = styled.footer`
         line-height: 2rem;
         margin: 0 auto;
         max-width: 40%;
-
+        @media (max-width: 600px) {
+            max-width: 80%;
+        }
     }
+
 
     h1{
         font-size: 3rem;
@@ -58,6 +61,7 @@ export const SocialDiv = styled.div`
     justify-content: center;
     grid-gap: 1rem;
     margin-bottom: 2rem;
+    padding: 1rem;
 
     .instagram{
         color: white;

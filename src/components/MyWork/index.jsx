@@ -11,21 +11,17 @@ export function MyWork() {
             <section>
                 <span>Projetos</span>
             </section>
-            <p>
                 <h1>Meus projetos<span>.</span></h1>
-            </p>
             
             <Container>
                 <img src={flor} alt="planta flor" />
                 <img src={suculenta} alt="planta suculenta" />
                 <img src={bonsai} alt="planta bonsai" />
-                <img src={bonsai} alt="planta bonsai" />
-                <img src={suculenta} alt="planta suculenta" />
-                <img src={flor} alt="planta flor" />
+
             </Container>
 
 
-            <StyledButton ><a href="https://github.com/Verthos?tab=repositories" target="_blank" >Todos os Projetos</a></StyledButton>
+            <StyledButton ><a rel="noreferrer" href="https://github.com/Verthos?tab=repositories" target="_blank" >Todos os Projetos</a></StyledButton>
             
         </StyledDiv>
         

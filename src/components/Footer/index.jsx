@@ -7,7 +7,7 @@ import { texts } from "../../data/data.json"
 
 export function Footer() {
     return( 
-        <StyledFooter id="contato">
+        <StyledFooter>
 
             <h1>Vamos trabalhar juntos<span>?</span></h1>
 
@@ -16,7 +16,7 @@ export function Footer() {
 
             <p> {texts.footer}</p>
 
-            <SocialDiv>
+            <SocialDiv id="contato">
                 <a target="_blank" rel="noreferrer" className ="linkedin" href="https://www.linkedin.com/in/william-kszan-79b292105/">
                     <FontAwesomeIcon icon={faLinkedin} size="3x"/>
                 </a>
