@@ -10,8 +10,11 @@ export function WhoAmI() {
             <img className="cavalo" src={cavalo} alt="dama" />
             <img className="dama" src={dama} alt="dama" />
 
-            <div>
+            <section>
+                <span>Quem sou</span>
+            </section>
 
+            <div>
                 <p>
                     <h1>Quem sou eu<span>?</span></h1>
                     Meu nome é William, tenho 28 anos e sou um apaixonado por Xadrêz, cafés e Tecnologia. Venho estudando diariamente

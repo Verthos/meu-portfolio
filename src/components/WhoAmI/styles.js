@@ -4,7 +4,7 @@ export const StyledDiv = styled.div`
     background: var(--shape);
     width: 100vw;
     height: 100vh;
-    padding-left: 10rem; 
+    padding-left: 5rem; 
     padding-top: 4rem;
     align-items: center;
     justify-content: right;
@@ -15,7 +15,9 @@ export const StyledDiv = styled.div`
         opacity: 5%;
         position: absolute;
         transform: skew(30deg, -30deg);
-        right: 5vw;
+        width: 30rem;
+        right: 10vw;
+        top: 20vw;
     }
 
     .dama{
@@ -24,7 +26,7 @@ export const StyledDiv = styled.div`
         transform: skew(120deg, -120deg);
         right: 10vw;
         top: 5rem; 
-        width: 15rem;
+        width: 10rem;
         
     }
 
@@ -34,7 +36,7 @@ export const StyledDiv = styled.div`
         transform: skew(120deg, -120deg);
         left: 15vw;
         top: 30rem; 
-        width: 20rem;
+        width: 15rem;
     }
 
 
@@ -96,14 +98,13 @@ export const StyledDiv = styled.div`
 
 
     span{
-        color: var(--cyan);
+        color: var(--blue);
     }    
 
 
     section{
         span{
             font-weight: bold;
-            left: 25vw;
             position: absolute;
             font-size: 10rem;
             opacity: 10%;

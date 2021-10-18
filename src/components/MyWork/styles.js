@@ -8,27 +8,19 @@ export const StyledDiv = styled.div`
     justify-content: center;
     display: grid;
 
-    p{
-        color: var(--black);
-        text-align: center;
-        line-height: 3rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
 
     p{
         h1{
             line-height: 0.7;
             color: var(--black);
-            text-align: center;
+            text-align: left;
             font-size: 5rem;
         }
 
         h2{
-            margin-left: -5rem;
             font-weight: normal;
             color: var(--black);
-            text-align: center;
+            text-align: left;
 
         }
     }
@@ -36,14 +28,13 @@ export const StyledDiv = styled.div`
 
 
     span{
-        color: orange;
+        color: var(--blue);
     }    
 
 
     section{
         span{
             font-weight: bold;
-            left: 35vw;
             position: absolute;
             font-size: 10rem;
             opacity: 15%;

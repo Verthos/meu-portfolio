@@ -45,7 +45,7 @@ export const StyledDiv = styled.div`
 
 
     span{
-        color: var(--cyan);
+        color: var(--blue);
     }    
 
 
