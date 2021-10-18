@@ -11,6 +11,35 @@ export const StyledDiv = styled.div`
     display: flex;
 
     
+    .bispo{
+        opacity: 5%;
+        position: absolute;
+        transform: skew(30deg, -30deg);
+        width: 30rem;
+        right: 10vw;
+        top: 20vw;
+    }
+
+    .dama{
+        opacity: 5%;
+        position: absolute;
+        transform: skew(120deg, -120deg);
+        right: 10vw;
+        top: 5rem; 
+        width: 10rem;
+        
+    }
+
+    .cavalo{
+        opacity: 5%;
+        position: absolute;
+        transform: skew(120deg, -120deg);
+        left: 20vw;
+        top: 30rem; 
+        width: 15rem;
+    }
+
+    
 
     p{
         font-size: 1.5rem;

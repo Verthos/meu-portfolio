@@ -11,37 +11,6 @@ export const StyledDiv = styled.div`
     display: grid;
 
 
-    .bispo{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(30deg, -30deg);
-        width: 30rem;
-        right: 10vw;
-        top: 20vw;
-    }
-
-    .dama{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(120deg, -120deg);
-        right: 10vw;
-        top: 5rem; 
-        width: 10rem;
-        
-    }
-
-    .cavalo{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(120deg, -120deg);
-        left: 15vw;
-        top: 30rem; 
-        width: 15rem;
-    }
-
-
-
-
     p{
         font-size: 1.5rem;
         color: var(--black);
@@ -103,6 +72,8 @@ export const StyledDiv = styled.div`
 
 
     section{
+        position: relative;
+        top: 10rem;
         span{
             font-weight: bold;
             position: absolute;

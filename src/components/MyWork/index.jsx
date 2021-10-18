@@ -25,7 +25,7 @@ export function MyWork() {
             </Container>
 
 
-            <StyledButton>Todos os Projetos</StyledButton>
+            <StyledButton ><a href="https://github.com/Verthos?tab=repositories" target="_blank" >Todos os Projetos</a></StyledButton>
             
         </StyledDiv>
         

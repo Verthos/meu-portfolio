@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    height: 130vh;
+    min-height: 130vh;
     padding-top: 4rem;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,11 @@ export const StyledButton = styled.button`
     box-shadow: 1px 1px 10px 1px var(--cyan);
     margin-bottom: 5rem;
     
-
+    a{
+        color: var(--shape);
+        text-decoration: none;
+        text-decoration-color: none;
+    }
 
 `
 
@@ -63,6 +67,7 @@ export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     grid-gap: 3rem;
+    height: min-content;
     max-width: 70vw;
     justify-content: center;
     

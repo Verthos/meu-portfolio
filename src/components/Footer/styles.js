@@ -4,7 +4,7 @@ export const StyledFooter = styled.footer`
     
     background: var(--gray);
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     bottom: 0;
     padding-top: 2rem;
     justify-content: center;
