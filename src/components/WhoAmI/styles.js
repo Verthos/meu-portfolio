@@ -65,6 +65,7 @@ export const StyledDiv = styled.div`
             color: var(--black);
             text-align: left;
             font-size: 5rem;
+            margin-top: 8rem;
         }
         }
     }    
