@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    height: 100vh;
+    height: 60vh;
     padding-left: 10rem; 
-    padding-top: 4rem;
+    padding-top: 20rem;
     align-items: center;
     justify-content: left;
     display: flex;
@@ -15,7 +15,7 @@ export const StyledDiv = styled.div`
 
     @media (max-width: 600px) {
         padding-left: 2rem;
-        padding-top: 1rem;
+        padding-top: 20rem;
     }
 
     

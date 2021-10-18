@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    min-height: 100vh;
+    min-height: 80vh;
     padding-left: 5rem; 
     padding-top: 4rem;
     padding-right: 10rem;

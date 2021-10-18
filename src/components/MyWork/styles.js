@@ -56,6 +56,13 @@ export const StyledDiv = styled.div`
             display: none;
         }
     }
+
+    a{
+        margin: 0 auto;
+        color: var(--shape);
+        text-decoration: none;
+        text-decoration-color: none;
+    }
 `
 
 export const StyledButton = styled.button`
@@ -69,12 +76,6 @@ export const StyledButton = styled.button`
     border: none;
     font-weight: bold;
     margin-bottom: 5rem;
-    
-    a{
-        color: var(--shape);
-        text-decoration: none;
-        text-decoration-color: none;
-    }
 
 
     @media (max-width: 600px) {

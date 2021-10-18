@@ -17,7 +17,7 @@ export function Home() {
                 <h2>William Peterson Kszan<span>.</span></h2>
                 <h1>Front-End <br /> Developer<span>!</span></h1>
 
-                <StyledButton><Link to="contato" smooth={true} duration={1000}>Entre em contato</Link></StyledButton>
+                <Link to="contato" smooth={true} duration={1000}><StyledButton>Entre em contato</StyledButton></Link>
             </div>
                     
         </StyledDiv>
