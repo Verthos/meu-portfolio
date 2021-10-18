@@ -8,7 +8,7 @@ export const StyledHeader = styled.header`
     z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: left;
 
     a{
         cursor: pointer;
@@ -22,6 +22,7 @@ export const StyledHeader = styled.header`
     }
 
     @media(max-width: 600px){
+        justify-content: space-evenly;
         a{
             &:first-child{
                 margin: 0 auto;
