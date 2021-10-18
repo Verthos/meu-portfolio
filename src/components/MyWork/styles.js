@@ -27,6 +27,7 @@ export const StyledDiv = styled.div`
             h1{
                 text-align: left;
                 margin-bottom: 3rem;
+                margin-left: 3rem;
             };
             h2{
                 text-align: left;

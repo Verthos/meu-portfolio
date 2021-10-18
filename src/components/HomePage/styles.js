@@ -8,6 +8,11 @@ export const StyledDiv = styled.div`
     align-items: center;
     justify-content: left;
     display: flex;
+    font-size: 1.5rem;
+    color: var(--black);
+    text-align: left;
+
+
     @media (max-width: 600px) {
         padding-left: 2rem;
         padding-top: 1rem;
@@ -59,15 +64,11 @@ export const StyledDiv = styled.div`
 
     
 
-    p{
-        font-size: 1.5rem;
-        color: var(--black);
-        text-align: left;
+    
         
-        h1{
-            margin-top: 1rem;
-            margin-bottom: 5rem;
-        }
+    h1{
+        margin-top: 1rem;
+        margin-bottom: 5rem;
     }
 
 
@@ -82,7 +83,8 @@ export const StyledDiv = styled.div`
         }
 
         h2{
-                
+            
+            
             font-weight: normal;
             color: var(--black);
             text-align: left;
@@ -96,6 +98,9 @@ export const StyledDiv = styled.div`
                 font-size: 4rem;
             }
             width: 80%;
+            h2 {
+                font-size: 1.5rem;
+            }
         }
 
     }

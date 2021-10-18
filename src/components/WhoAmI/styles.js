@@ -5,6 +5,7 @@ export const StyledDiv = styled.div`
     min-height: 100vh;
     padding-left: 5rem; 
     padding-top: 4rem;
+    padding-right: 10rem;
     align-items: center;
     justify-content: right;
     display: grid;
@@ -12,7 +13,7 @@ export const StyledDiv = styled.div`
     @media(max-width: 600px){
             padding-left: 2rem;
             justify-content: left;
-
+            padding-right: 2rem;
             
         }
 
@@ -23,6 +24,15 @@ export const StyledDiv = styled.div`
         line-height: 2rem;
         margin-bottom: 5rem;
         margin-top: 1rem;
+        padding-right: 10rem;
+
+        @media(max-width: 600px){
+            padding-left: 1rem;
+            justify-content: left;
+            padding-right: 1rem;
+            font-size: 1.4rem;
+            
+        }
     }
 
 

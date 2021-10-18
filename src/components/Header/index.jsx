@@ -11,8 +11,8 @@ export function Header() {
             
             <nav>
                 <Link to="home" smooth={true} duration={1000}>Home</Link>
-                <Link to="sobre" smooth={true} duration={1000}>Sobre mim</Link>
-                <Link to="oqfaco" smooth={true} duration={1000}>O que eu faço</Link>
+                <Link to="sobre" smooth={true} duration={1000}>Sobre</Link>
+                <Link to="oqfaco" smooth={true} duration={1000}>Skills</Link>
                 <Link to="portfolio" smooth={true} duration={1000}>Portfolio</Link>
                 <Link to="contato" smooth={true} duration={1000}>Contato</Link>
             </nav>

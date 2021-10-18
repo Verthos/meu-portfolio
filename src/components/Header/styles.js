@@ -8,6 +8,7 @@ export const StyledHeader = styled.header`
     z-index: 1;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 
     a{
         cursor: pointer;
@@ -23,10 +24,11 @@ export const StyledHeader = styled.header`
     @media(max-width: 600px){
         a{
             &:first-child{
-            margin-left: 2rem;
+                margin: 0 auto;
         }
 
-        justify-content: space-around;
+        
+        
         }
     }
 
