@@ -16,7 +16,7 @@ export const StyledDiv = styled.div`
         line-height: 0.7;
         color: var(--black);
         text-align: left;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     h2{

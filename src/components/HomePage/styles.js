@@ -49,7 +49,7 @@ export const StyledDiv = styled.div`
         top: 30rem; 
         width: 15rem;
         @media (max-width: 1200px) {
-            width: 25rem;
+            width: 22rem;
             transform: none;
             top: 8rem;
             left: 10vw;
