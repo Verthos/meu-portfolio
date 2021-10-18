@@ -2,6 +2,7 @@ import { StyledFooter, SocialDiv } from "./styles";
 import img from "../../assets/me_color.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { texts } from "../../data/data.json"
 
 
 export function Footer() {
@@ -13,11 +14,8 @@ export function Footer() {
             <img src={img} alt="avatar" />
 
 
-            <p> Se gostou do meu trabalho e tem algum projeto em mente ou vaga para desenvoldedor Fron-end,<br />  
-                sinta-se à vontade para me contatar.
-                Atualmente trabalho em periodo integral, mas responderei assim que possível.<br /> 
-                
-            </p>
+            <p> {texts.footer}</p>
+            
             <SocialDiv>
                 <a target="_blank" rel="noreferrer" className ="linkedin" href="https://www.linkedin.com/in/william-kszan-79b292105/">
                     <FontAwesomeIcon icon={faLinkedin} size="3x"/>

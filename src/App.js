@@ -4,7 +4,7 @@ import { MyWork } from "./components/MyWork";
 import { WhoAmI } from "./components/WhoAmI";
 import { Header } from "./components/Header";
 import { Home } from "./components/HomePage";
-
+import { Skills } from "./components/WhatIDo";
 
 
 export function App() {
@@ -14,9 +14,9 @@ export function App() {
     <Header/>
     <Home/>
     <WhoAmI/>
+    <Skills/>
     <MyWork/>
     <Footer/>
-
 
     <GlobalStyle/>
 

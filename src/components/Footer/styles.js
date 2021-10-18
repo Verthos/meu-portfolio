@@ -15,7 +15,8 @@ export const StyledFooter = styled.footer`
         color: var(--shape);
         text-align: center;
         line-height: 2rem;
-        margin: 1rem;
+        margin: 0 auto;
+        max-width: 40%;
 
     }
 

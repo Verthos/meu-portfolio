@@ -1,0 +1,48 @@
+{
+    "skills": {
+        "linguagens": [
+            "Javascript",
+            "HTML5",
+            "CSS / SCSS",
+            "SQL"
+        ],
+        "frameworks": [
+            "React JS",
+            "React Native (básico)",
+            "Node JS / Express (básico)",
+            "Styled Components",
+            "Next JS (básico)"
+        ],
+        
+        "ferramentas": [
+            "Git  GitHub",
+            "SQL Server",
+            "Microsoft Azure",
+            "Figma",
+            "Windows Server"
+        ],
+        
+        "softskills" : [
+
+            "Boa comunicação",
+            "Proatividade",
+            "Foco no resultado",
+            "Pensamento crítico",
+            "Trabalho em equipe",
+            "Resiência"
+        ]  
+    },
+
+    "texts": {
+        "footer": "Se gostou do meu trabalho e tem algum projeto ou vaga para desenvoldedor Fron-end, em que eu possa ser útil, sinta-se à vontade para me contatar. Atualmente trabalho em periodo integral, mas com certeza responderei assim que possível.",
+        "quemsou": "Meu nome é William, tenho 28 anos e sou um apaixonado por Xadrêz, cafés e Tecnologia. Venho estudando diariamente Front-end e ferramentas relacionadas para ingressar no mercado de trabalho como desenvolvedor. Sei que ainda há um mar de conhecimento para estudar, mas sabendo o quão comprometido e esforçado sou, posso garantir que atenderei às espectativas dos que acreditarem no meu trabalho."
+    
+    }
+
+
+
+}
+
+
+
+

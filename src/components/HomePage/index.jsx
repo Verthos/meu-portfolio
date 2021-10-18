@@ -1,4 +1,5 @@
 import { StyledDiv, StyledButton } from "./styles";
+import { Link } from "react-scroll";
 
 export function Home() {
     return( 
@@ -13,7 +14,7 @@ export function Home() {
                     <h1>Front-End <br /> Developer<span>!</span></h1>
                 </p>
 
-                <StyledButton>Entre em contato</StyledButton>
+                <StyledButton><Link to="contato" smooth={true} duration={1000}>Entre em contato</Link></StyledButton>
             </div>
                     
         </StyledDiv>

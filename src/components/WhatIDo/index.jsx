@@ -1,35 +1,56 @@
-import { StyledDiv, StyledButton, Container } from "./styles";
-import suculenta from "../../assets/suculenta.jpg"
-import flor from "../../assets/flor.jpg"
-import bonsai from "../../assets/bonsai.jpg"
+import { StyledDiv, Container } from "./styles";
+import dataJson from "../../data/data.json"
 
 
+export function Skills() {
 
-export function MyWork() {
     return( 
-        <StyledDiv>
+        <StyledDiv id="oqfaco">
+
             <section>
-                <span>BLOG</span>
+                <span>HABILIDADES</span>
             </section>
             <p>
-                <h2>My Blog</h2>
-                <h1>Blog<span>.</span></h1>
-                See the latest articles that's talking about design and development.
+                <h2>Minhas</h2>
+                <h1>Habilidades<span>.</span></h1>              
             </p>
-            
 
-            <p></p>
 
             <Container>
-                <img src={flor} alt="planta flor" />
-                <img src={suculenta} alt="planta suculenta" />
-                <img src={bonsai} alt="planta bonsai" />
+
+                <ul>
+                    <h1>Linguagens<span>.</span></h1>
+                    {dataJson.skills.linguagens.map((linguagem) => {return(
+                        <li>{linguagem}</li>
+                    )})}
+                </ul>
+
+                <ul>
+                    <h1>Frameworks<span>.</span></h1>
+                    {dataJson.skills.frameworks.map((linguagem) => {return(
+                        <li>{linguagem}</li>
+                    )})}
+                </ul>
+
+                <ul>
+                    <h1>Ferramentas diversas<span>.</span></h1>
+
+                    {dataJson.skills.ferramentas.map((linguagem) => {return(
+                        <li>{linguagem}</li>
+                    )})}
+
+                </ul>
+
+                <ul>
+                    <h1>Softskills<span>.</span></h1>
+                    {dataJson.skills.softskills.map((linguagem) => {return(
+                        <li>{linguagem}</li>
+                    )})}
+                </ul>
+
+
             </Container>
 
-
-            <StyledButton>Read all articles →</StyledButton>
-            
-        </StyledDiv>
-        
+        </StyledDiv>       
     )
 }

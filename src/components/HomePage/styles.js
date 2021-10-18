@@ -76,5 +76,9 @@ export const StyledButton = styled.button`
     font-weight: bold;
     box-shadow: 1px 1px 10px 1px var(--blue);
     margin-bottom: 5rem;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+
 `
 
