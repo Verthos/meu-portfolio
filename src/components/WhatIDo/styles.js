@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
+    width: 100%;
     height: 70vh;
     padding: 4rem;
     padding-left: 10rem;
@@ -64,6 +65,7 @@ export const Container = styled.div`
 
     
     ul{
+        position: relative;
         p{
             font-weight: bold;
             font-size: 2rem;
