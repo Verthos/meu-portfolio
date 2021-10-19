@@ -1,9 +1,9 @@
 import { StyledDiv, StyledButton, Container } from "./styles";
-import suculenta from "../../assets/suculenta.jpg"
-import flor from "../../assets/flor.jpg"
-import bonsai from "../../assets/bonsai.jpg"
 import { useLanguage } from "../../hooks/useLanguage"
-
+import { projects } from "../../data/data.json"
+import ignews from "../../assets/ignews.png"
+import github_explorer from "../../assets/github-explorer.png"
+import meuportfolio from "../../assets/meuportfolio.png"
 
 export function MyWork() {
 
@@ -18,9 +18,9 @@ export function MyWork() {
                 <h1>My projects<span>.</span></h1>
             
                 <Container>
-                    <img src={flor} alt="planta flor" />
-                    <img src={suculenta} alt="planta suculenta" />
-                    <img src={bonsai} alt="planta bonsai" />
+                    <img src={meuportfolio} alt="planta flor" />
+                    <img src={github_explorer} alt="planta suculenta" />
+                    <img src={ignews} alt="planta bonsai" />
                 </Container>
 
 
@@ -29,6 +29,7 @@ export function MyWork() {
             </StyledDiv>
         )
     }else{
+        
         return(
             <StyledDiv id="portfolio">
                 <section>
@@ -36,10 +37,49 @@ export function MyWork() {
                 </section>
                     <h1>Meus projetos<span>.</span></h1>
                 
+                {projects.ptbr.map(() => {
+                    return(<img src={projects.ptbr.imagem} alt={projects.ptbr.repositorio} />)
+                })}
+
+
                 <Container>
-                    <img src={flor} alt="planta flor" />
-                    <img src={suculenta} alt="planta suculenta" />
-                    <img src={bonsai} alt="planta bonsai" />
+                    <div>
+                        <p>Meu portfolio</p>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/meu-portfolio"><img src={meuportfolio} alt="portfolio" /></a>
+                        <ul>
+                            <p>Principais técnologias</p>
+                            <li>React JS</li>
+                            <li>Styled-components</li>
+
+                            
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <p>Github explorer</p>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={github_explorer} alt="github explorer" /></a>
+                        <ul>
+                            <p>Principais técnologias</p>
+                            <li>React JS</li>
+                            <li>Typescript</li>
+                            <li>Styled-components</li>
+                            <li>Github API</li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Ignews - Ignite</p>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={ignews} alt="ignews" /></a>
+                        <ul>
+                            <p>Principais técnologias</p>
+                            <li>React JS</li>
+                            <li>Styled-components</li>
+                            <li>Next JS</li>
+                            <li>Github Oauth</li>
+                            
+                        </ul>
+                        
+                    </div>
                 </Container>
     
     

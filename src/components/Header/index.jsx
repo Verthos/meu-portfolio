@@ -16,10 +16,10 @@ export function Header() {
               
             <nav className="menu">
                 <Link to="home" smooth={true} duration={1000}>Home</Link>
-                <Link className="about" to="sobre" smooth={true} duration={1000}>About</Link>
+                <Link className="about" to="sobre" smooth={true} duration={1000}>Sobre</Link>
                 <Link to="oqfaco" smooth={true} duration={1000}>Skills</Link>
                 <Link to="portfolio" smooth={true} duration={1000}>Portfolio</Link>
-                <Link to="contato" smooth={true} duration={1000}>Contat</Link>
+                <Link to="contato" smooth={true} duration={1000}>Contato</Link>
             </nav>
 
             <nav className="lingua">

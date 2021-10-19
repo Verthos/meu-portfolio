@@ -46,8 +46,47 @@
         "footer": "Se gostou do meu trabalho e/ou tem algum projeto ou vaga para desenvoldedor Fron-end, no qual eu posso ser útil, sinta-se à vontade para me contatar nas redes a seguir. Atualmente trabalho em periodo integral, mas com certeza responderei assim que possível.",
         "quemsou": "Meu nome é William, tenho 28 anos e sou um apaixonado por Xadrez, cafés e Tecnologia. Venho estudando diariamente Front-end e ferramentas relacionadas para ingressar no mercado de trabalho como desenvolvedor. Sei que ainda há um mar de conteúdos para estudar, mas sabendo o quão comprometido e esforçado sou, posso garantir que atenderei às espectativas dos que acreditarem no meu trabalho.",
         "english_footer":"If you like my work and/or have any project or job opportunity for a Fron-end developer that I can be useful, please feel free to contact me on the networks ahead. I currently working full time, but I'll definitely return as soon as possible.",
-        "whoAmI":"My name is William, I am 28 years old and I am passionate about Chess, Coffee and Technology. I've been studying Front-end and related tools every day to join a job as a developer. I know there is still a sea of ​​content to study, but knowing how committed and hard-worker I am, I can guarantee that I will achive the expectations of those who believe in my work."
+        "whoAmI":"My name is William, I'm 28 years old and I'm passionate about Chess, Coffee and Technology. I've been studying Front-end and related tools every day to join a job as a developer. I know there is still a sea of ​​content to study, but knowing how committed and hard-worker I'm, I can guarantee that I will achive the expectations of those who believe in my work."
     
+    },
+
+    "projects":{
+        "ptbr":[
+            {
+                "id":1,
+                "repositorio": "Github explorer",
+                "link": "https://github.com/Verthos/my-github-explorer",
+                "tecnologias": ["React JS", "Javascript", "Styled-components"],
+                "descrição":"Desenvolvido utilizando consulta à API do github para localizar repositórios e usuários",
+                "status":"Em desenvolvimento - solo",
+                "imagem": "github-explorer"
+            },
+
+            {
+                "id":2,
+                "repositorio": "Ignews",
+                "link": "https://github.com/Verthos/ig-news",
+                "tecnologias": ["React JS", "NextJS", "Javascript", "Styled-components", "FaunaDB", "Oalth"],
+                "descrição":"Desenvolvido utilizando consulta à API do github para localizar repositórios e usuários",
+                "status":"Em desenvolvimento - Aula, rocketseat",
+                "imagem": "ignews"
+            },
+
+            {
+                "id":3,
+                "repositorio": "Meu portfólio",
+                "link": "https://github.com/Verthos/meu-portfolio",
+                "tecnologias": ["React JS", "NextJS", "Javascript", "Styled-components", "FaunaDB", "Oalth"],
+                "descrição":"Desenvolvido utilizando consulta à API do github para localizar repositórios e usuários",
+                "status":"Em desenvolvimento - Aula, rocketseat",
+                "imagem": "meuportfolio"
+            }
+        ],
+
+        "en":[
+
+        ]
+
     }
     
 }

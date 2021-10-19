@@ -11,11 +11,9 @@ export const StyledHeader = styled.header`
     justify-content: space-between;
     padding-right: 2rem;
 
-    div{
-   
-  
+    Link{
+        
     }
-
 
     .lingua{
         display: flex;
@@ -53,6 +51,9 @@ export const StyledHeader = styled.header`
     @media(max-width: 600px){
         .about{
             display: none;
+            &:hover{
+            color: var(cyan)
+        }
         }
         justify-content: space-evenly;
         a{

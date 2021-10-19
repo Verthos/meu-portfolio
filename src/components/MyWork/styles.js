@@ -88,15 +88,42 @@ export const StyledButton = styled.button`
 export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 3rem;
+    grid-gap: 8rem;
     height: min-content;
     max-width: 70vw;
 
-    
+    p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    };
 
     img{
         height: 20rem;
         width: 20rem;
         border-radius: 1rem;
     }
+
+    @media (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 2rem;
+        }
+
+    
+    ul{
+        p{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        li{
+            list-style: none;
+            font-size: 1.3rem;
+        }
+
+    }
+    
 `
+
+
