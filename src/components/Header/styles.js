@@ -98,7 +98,7 @@ export const NavLinks = styled.ul`
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(100px at 90% -10%);
+        //clip-path: circle(100px at 90% -10%);
         //-webkit-clip-path: circle(100px at 5% -10%);
         //transition: all 1s ease-out;
         pointer-events: none;
