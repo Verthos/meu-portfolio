@@ -1,11 +1,24 @@
-import { StyledHeader } from "./styles"
+import { Hamburger, NavLinks, StyledHeader } from "./styles"
 import { Link } from "react-scroll";
 import ptbr from "../../assets/pt-br.jpg"
 import en from "../../assets/en.jpg"
 import { useLanguage } from "../../hooks/useLanguage";
+import { useState } from "react/cjs/react.development";
 
 
 export function Header() {
+    
+    const [openMenu, setOpenMenu] = useState("isClosed")
+    
+
+    const handleIsOpen = function(){
+        if(openMenu !== "isOpen"){
+            setOpenMenu("isOpen")
+        }else{
+            setOpenMenu("isClosed")
+        }
+    }
+
 
     const lang = useLanguage();
 
@@ -15,12 +28,20 @@ export function Header() {
         <StyledHeader>
               
             <nav className="menu">
-                <Link to="home" smooth={true} duration={1000}>Home</Link>
-                <Link className="about" to="sobre" smooth={true} duration={1000}>Sobre</Link>
-                <Link to="oqfaco" smooth={true} duration={1000}>Skills</Link>
-                <Link to="portfolio" smooth={true} duration={1000}>Portfolio</Link>
-                <Link to="contato" smooth={true} duration={1000}>Contato</Link>
+                <Hamburger onClick={() => handleIsOpen()}>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                </Hamburger>
+                <NavLinks className={openMenu}>
+                    <li><Link onClick={() => handleIsOpen()} to="home" smooth={true} duration={1000}>Home</Link></li>
+                    <li><Link onClick={() => handleIsOpen()} to="sobre" smooth={true} duration={1000}>Sobre</Link></li>
+                    <li><Link onClick={() => handleIsOpen()} to="oqfaco" smooth={true} duration={1000}>Skills</Link></li>
+                    <li><Link onClick={() => handleIsOpen()} to="portfolio" smooth={true} duration={1000}>Portfolio</Link></li>
+                    <li><Link onClick={() => handleIsOpen()} to="contato" smooth={true} duration={1000}>Contato</Link></li>
+                </NavLinks>  
             </nav>
+
 
             <nav className="lingua">
                 <div className={lang.ptbr}>

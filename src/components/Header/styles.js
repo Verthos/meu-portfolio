@@ -2,19 +2,15 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header`
     position: fixed;
+    background: var(--gray);
     width: 100%;
     height: 8vh;
-    background: var(--gray);
     z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-right: 2rem;
-
-    Link{
-        
-    }
-
+    justify-content: space-around;
+    
+    
     .lingua{
         display: flex;
     }
@@ -24,6 +20,7 @@ export const StyledHeader = styled.header`
         }
 
     img{
+
         margin: 0.2rem;
         width: 2rem;
         border-radius: 2rem;
@@ -37,32 +34,95 @@ export const StyledHeader = styled.header`
         
     }
 
-    a{
-        cursor: pointer;
-        text-decoration: none;
-        margin: 0 1rem;
-        font-size: 1.2rem;
-        color: var(--shape);
-        &:first-child{
-            margin-left: 10rem;
-        }
-    }
+    nav{
 
-    @media(max-width: 600px){
+        height: 8vh;
+        position: relative;
+        align-items: center;
+        
+        .nav-links{
+            
+            
+        };
 
-        .about{
-            display: none;
-        }
-        justify-content: center;
         a{
+            cursor: pointer;
+            padding: 0 2rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: var(--shape);
+            margin: 0 auto;
             &:first-child{
-                margin: 0 auto;
+                margin-left: 3rem;
             }
         }
+        
     }
 
+`
+
+export const Hamburger = styled.div`
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    left: 10%;
+    top: 1.5rem;
+    display: none;
+
+    .line{
+        width: 30px;
+        height: 3px;
+        background: var(--shape);
+        margin: 5px;
+    }
+
+    @media (max-width: 768px){
+        display: block;
+    }
 
 `
+
+export const NavLinks = styled.ul`
+
+    display: flex;
+    list-style: none;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+
+    @media (max-width: 768px){
+        left: 0;
+        position: fixed;
+        background: var(--gray);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 5% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    
+                
+            a{
+                cursor: pointer;
+                text-decoration: none;
+                font-size: 2rem;
+                color: var(--shape);
+            }
+
+        &.isOpen{
+            clip-path: circle(1000px at 90% -10%);
+            -webkit-clip-path: circle(1000px at 5% -10%);
+            pointer-events: all;
+        }
+
+      
+    }
+        
+
+`
+
 
 
 
