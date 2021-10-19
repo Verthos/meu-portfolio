@@ -34,6 +34,9 @@ html {
     @media (max-width: 720px) {
             font-size: 87.5%; //14px
         }
+    @media (max-width: 340px) {
+            font-size: 82.5%; 
+        }
 }
 
 

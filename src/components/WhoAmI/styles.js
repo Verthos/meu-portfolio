@@ -81,12 +81,10 @@ export const StyledDiv = styled.div`
         }
 
         h2{
-            
             font-weight: normal;
             color: var(--black);
             text-align: left;
             line-height: 1rem;
-
         }
     }
 

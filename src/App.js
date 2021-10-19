@@ -5,11 +5,11 @@ import { WhoAmI } from "./components/WhoAmI";
 import { Header } from "./components/Header";
 import { Home } from "./components/HomePage";
 import { Skills } from "./components/WhatIDo";
-
+import { LanguageProvider } from "./hooks/useLanguage"
 
 export function App() {
   return (
-    <main>
+    <LanguageProvider>
 
     <Header/>
     <Home/>
@@ -20,7 +20,7 @@ export function App() {
 
     <GlobalStyle/>
 
-    </main>
+    </LanguageProvider>
   );
 }
 

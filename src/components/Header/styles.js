@@ -8,7 +8,36 @@ export const StyledHeader = styled.header`
     z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
+    padding-right: 2rem;
+
+    div{
+   
+  
+    }
+
+
+    .lingua{
+        display: flex;
+    }
+    .false{
+        transition: filter 0.5s;
+        filter: opacity(0.3);
+        }
+
+    img{
+        margin: 0.2rem;
+        width: 2rem;
+        border-radius: 2rem;
+        cursor: pointer;
+        transition: transform 1s;
+
+        &:hover{
+            filter: brightness(1.2);
+            transform: skew(20deg, -20deg);
+        }
+        
+    }
 
     a{
         cursor: pointer;
@@ -22,14 +51,14 @@ export const StyledHeader = styled.header`
     }
 
     @media(max-width: 600px){
+        .about{
+            display: none;
+        }
         justify-content: space-evenly;
         a{
             &:first-child{
                 margin: 0 auto;
-        }
-
-        
-        
+            }
         }
     }
 
