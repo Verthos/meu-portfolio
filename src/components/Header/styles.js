@@ -49,13 +49,11 @@ export const StyledHeader = styled.header`
     }
 
     @media(max-width: 600px){
+
         .about{
             display: none;
-            &:hover{
-            color: var(cyan)
         }
-        }
-        justify-content: space-evenly;
+        justify-content: center;
         a{
             &:first-child{
                 margin: 0 auto;

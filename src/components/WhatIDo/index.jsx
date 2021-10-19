@@ -21,28 +21,28 @@ export function Skills() {
     
                     <ul>
                         <p>Languages<span>.</span></p>
-                        {dataJson.skills.linguagens.map((linguagem) => {return(
-                            <li>{linguagem}</li>
+                        {dataJson.skills.linguagens.map((item) => {return(
+                            <li key={item.index}>{item}</li>
                         )})}
                     </ul>
                     <ul>
                         <p>Frameworks<span>.</span></p>
-                        {dataJson.skills.frameworks.map((linguagem) => {return(
-                            <li>{linguagem}</li>
+                        {dataJson.skills.frameworks.map((item) => {return(
+                            <li key={item.index}>{item}</li>
                         )})}
                     </ul>
                     <ul>
                         <p>Tools<span>.</span></p>
     
-                        {dataJson.skills.ferramentas.map((linguagem) => {return(
-                            <li>{linguagem}</li>
+                        {dataJson.skills.ferramentas.map((item) => {return(
+                            <li key={item.index}>{item}</li>
                         )})}
     
                     </ul>
                     <ul>
                         <p>Softskills<span>.</span></p>
-                        {dataJson.skills.en_softskills.map((linguagem) => {return(
-                            <li>{linguagem}</li>
+                        {dataJson.skills.en_softskills.map((item) => {return(
+                            <li key={item.index}>{item}</li>
                         )})}
                     </ul>
     

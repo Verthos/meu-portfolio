@@ -13,7 +13,6 @@ export function LanguageProvider({children}) {
     function handleNewLanguage(argument){
         if (language !== argument) {
             setLanguage(argument)
-            console.log(argument)
 
             if(argument === "ptbr"){
                 setPtbr("isActive");
@@ -23,7 +22,6 @@ export function LanguageProvider({children}) {
                 setPtbr("false");
             }
 
-            console.log(en)
         }else{
             return;    
         }

@@ -1,6 +1,5 @@
 import { StyledDiv, StyledButton, Container } from "./styles";
 import { useLanguage } from "../../hooks/useLanguage"
-import { projects } from "../../data/data.json"
 import ignews from "../../assets/ignews.png"
 import github_explorer from "../../assets/github-explorer.png"
 import meuportfolio from "../../assets/meuportfolio.png"
@@ -36,10 +35,6 @@ export function MyWork() {
                     <span>Projetos</span>
                 </section>
                     <h1>Meus projetos<span>.</span></h1>
-                
-                {projects.ptbr.map(() => {
-                    return(<img src={projects.ptbr.imagem} alt={projects.ptbr.repositorio} />)
-                })}
 
 
                 <Container>
