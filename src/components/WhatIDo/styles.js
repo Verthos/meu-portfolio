@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     background: var(--shape);
-    width: 100%;
+    width: 100vw;
     height: 70vh;
     padding: 4rem;
     padding-left: 10rem;
@@ -17,7 +17,7 @@ export const StyledDiv = styled.div`
         line-height: 0.7;
         color: var(--black);
         text-align: left;
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     h2{
@@ -60,12 +60,10 @@ export const Container = styled.div`
     @media (max-width: 600px) {
             display: flex;
             flex-direction: column;
-            grid-gap: 2rem;
         }
 
     
     ul{
-        position: relative;
         p{
             font-weight: bold;
             font-size: 2rem;
