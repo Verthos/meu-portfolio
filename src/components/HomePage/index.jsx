@@ -12,12 +12,6 @@ export function Home() {
     if(lang.language === "en"){
         return( 
             <StyledDiv id="home">
-    
-    
-                <img className="bispo" src={bispo} alt="bispo" />
-                <img className="cavalo" src={cavalo} alt="dama" />
-                <img className="dama" src={dama} alt="dama" />
-    
                 <div>
                     <h2>William Peterson Kszan<span>.</span></h2>
                     <h1>Front-End <br /> Developer<span>!</span></h1>
