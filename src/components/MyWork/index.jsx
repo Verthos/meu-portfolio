@@ -63,7 +63,7 @@ export function MyWork() {
                         </ul>
                     </div>
                     <div>
-                        <p>Ignews - Ignite</p>
+                        <p>Ignews - Curso Ignite</p>
                         <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={ignews} alt="ignews" /></a>
                         <ul>
                             <p>Principais técnologias</p>
