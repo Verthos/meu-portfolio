@@ -8,7 +8,6 @@ export const StyledDiv = styled.div`
     align-items: center;
     justify-content: left;
     display: flex;
-    font-size: 1.5rem;
     color: var(--black);
     text-align: left;
 
@@ -69,6 +68,13 @@ export const StyledDiv = styled.div`
     h1{
         margin-top: 1rem;
         margin-bottom: 5rem;
+
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
     }
 
 
@@ -95,7 +101,7 @@ export const StyledDiv = styled.div`
     
         @media (max-width: 600px) {
             h1 {
-                font-size: 4rem;
+                font-size: 3.5rem;
             }
             width: 80%;
             h2 {

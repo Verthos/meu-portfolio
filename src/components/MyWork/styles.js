@@ -25,6 +25,7 @@ export const StyledDiv = styled.div`
     
     @media (max-width: 600px) {
             h1{
+                font-size: 3.5rem;
                 text-align: left;
                 margin-bottom: 3rem;
                 margin-left: 3rem;
