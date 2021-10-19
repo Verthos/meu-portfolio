@@ -99,8 +99,8 @@ export const NavLinks = styled.ul`
         width: 100%;
         flex-direction: column;
         clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path: circle(100px at 5% -10%);
-        transition: all 1s ease-out;
+        //-webkit-clip-path: circle(100px at 5% -10%);
+        //transition: all 1s ease-out;
         pointer-events: none;
     
                 
@@ -112,8 +112,8 @@ export const NavLinks = styled.ul`
             }
 
         &.isOpen{
-            clip-path: circle(1000px at 90% -10%);
-            -webkit-clip-path: circle(1000px at 5% -10%);
+            //clip-path: circle(1000px at 90% -10%);
+            //-webkit-clip-path: circle(1000px at 5% -10%);
             pointer-events: all;
         }
 
