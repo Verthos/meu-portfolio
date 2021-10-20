@@ -9,12 +9,13 @@ export function Header() {
     const [openMenu, setOpenMenu] = useState("isClosed")
     
 
-    const handleIsOpen = function(openMenu){
-        if(openMenu !== "isOpen"){
+    const handleIsOpen = function(arg){
+        if(openMenu !== arg){
             setOpenMenu("isOpen")
         }else{
             setOpenMenu("isClosed")
         }
+        console.log(openMenu)
     }
 
 
@@ -22,7 +23,7 @@ export function Header() {
 
     return(
         <StyledHeader>
-            <Hamburger onClick={handleIsOpen(openMenu)}>
+            <Hamburger onClick={() => handleIsOpen("isOpen")}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
