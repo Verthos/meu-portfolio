@@ -22,7 +22,9 @@ export function Header() {
 
     const lang = useLanguage();
 
-    return(h1)
+    return(
+        <h1>teste</h1>
+    )
         /*Componente com nav utilizando react-scroll para animação e navegação entre os componentes da pagina.
         <StyledHeader>
             /
