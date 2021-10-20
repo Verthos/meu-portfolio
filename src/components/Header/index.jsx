@@ -1,4 +1,4 @@
-import { Hamburger, StyledHeader, NavLinks } from "./styles"
+import { Hamburger} from "./styles"
 import { Link } from "react-scroll"
 import { useLanguage } from "../../hooks/useLanguage";
 import en from "../../assets/en.jpg"
