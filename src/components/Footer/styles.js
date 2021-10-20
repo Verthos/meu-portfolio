@@ -74,15 +74,18 @@ export const SocialDiv = styled.div`
     }
 
     .linkedin{
-        color: #003d80;
+        color: #006fe9;
         position: relative;
         transition: filter 0.3s;
         transition: transform 1s;
-        text-shadow: 10px 10px 10px ;
+        
         &:hover{
             filter: brightness(1.2);
             transform: skew(20deg, -20deg);
+            
         }
+
+        
 
     }
 
@@ -91,12 +94,13 @@ export const SocialDiv = styled.div`
         position: relative;
         transition: filter 0.3s;
         transition: transform 1s;
-        text-shadow: 10px 10px 10px white;
 
         &:hover{
             filter: brightness(1.2);
             transform: skew(20deg, -20deg);
         }
+        
     }
+
 `
 

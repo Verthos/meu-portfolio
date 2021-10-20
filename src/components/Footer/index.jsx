@@ -31,6 +31,7 @@ export function Footer() {
                     </a>
                     <a target="_blank" rel="noreferrer" className ="instagram" href="https://www.instagram.com/wilkszan/">
                         <FontAwesomeIcon icon={faInstagram} size="3x"/>
+                        
                     </a>
     
                 </SocialDiv>
