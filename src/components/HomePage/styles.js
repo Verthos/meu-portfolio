@@ -16,12 +16,17 @@ export const StyledDiv = styled.div`
         justify-content:right;
 
         .reactIcon, .nextIcon{
-            width: 4rem;
+            width: 9rem;
+            @media (max-width: 600px){
+                width: 3rem;
+            }
+
         }
 
         @media (max-width: 600px){
             display: grid;
             flex-direction: column;
+            right: 3rem;
         }
         
 

@@ -70,9 +70,10 @@ export const Hamburger = styled.div`
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    top: 1.5rem;
-    left: 1.5rem;
     display: none;
+    left: 1rem;
+    top: 50%;
+    transform: translate(0, -50%);
 
     .line{
         width: 30px;
