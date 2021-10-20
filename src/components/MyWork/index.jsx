@@ -17,9 +17,43 @@ export function MyWork() {
                 <h1>My projects<span>.</span></h1>
             
                 <Container>
-                    <img src={meuportfolio} alt="planta flor" />
-                    <img src={github_explorer} alt="planta suculenta" />
-                    <img src={ignews} alt="planta bonsai" />
+                <div>
+                        <p>Meu portfolio</p>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/meu-portfolio"><img src={meuportfolio} alt="portfolio" /></a>
+                        <ul>
+                            <p>Tecnlogies</p>
+                            <li>React JS</li>
+                            <li>Styled-components</li>
+
+                            
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <p>Github explorer</p>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={github_explorer} alt="github explorer" /></a>
+                        <ul>
+                            <p>Tecnlogies</p>
+                            <li>React JS</li>
+                            <li>Typescript</li>
+                            <li>Styled-components</li>
+                            <li>Github API</li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Ignews - Curso Ignite</p>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={ignews} alt="ignews" /></a>
+                        <ul>
+                            <p>Tecnlogies</p>
+                            <li>React JS</li>
+                            <li>Styled-components</li>
+                            <li>Next JS</li>
+                            <li>Github Oauth</li>
+                            
+                        </ul>
+                        
+                    </div>
                 </Container>
 
 
@@ -44,7 +78,7 @@ export function MyWork() {
                         <p>Meu portfolio</p>
                         <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/meu-portfolio"><img src={meuportfolio} alt="portfolio" /></a>
                         <ul>
-                            <p>Principais técnologias</p>
+                            <p>Tecnologias</p>
                             <li>React JS</li>
                             <li>Styled-components</li>
 
@@ -56,7 +90,7 @@ export function MyWork() {
                         <p>Github explorer</p>
                         <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={github_explorer} alt="github explorer" /></a>
                         <ul>
-                            <p>Principais técnologias</p>
+                            <p>Tecnologias</p>
                             <li>React JS</li>
                             <li>Typescript</li>
                             <li>Styled-components</li>
@@ -68,7 +102,7 @@ export function MyWork() {
                         <p>Ignews - Curso Ignite</p>
                         <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/my-github-explorer"><img src={ignews} alt="ignews" /></a>
                         <ul>
-                            <p>Principais técnologias</p>
+                            <p>Tecnologias</p>
                             <li>React JS</li>
                             <li>Styled-components</li>
                             <li>Next JS</li>
