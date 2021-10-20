@@ -7,7 +7,7 @@ export const StyledHeader = styled.header`
     height: 8vh;
     z-index: 2;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
     
     
