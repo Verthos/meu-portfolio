@@ -8,7 +8,7 @@ import { useState } from "react/cjs/react.development";
 
 export function Header() {
     
-    const [openMenu, setOpenMenu] = useState("isClosed")
+    const [openMenu] = useState("isClosed")
     
 
   
