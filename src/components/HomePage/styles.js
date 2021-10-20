@@ -9,7 +9,37 @@ export const StyledDiv = styled.div`
     display: flex;
     color: var(--black);
     text-align: left;
+    
+    .tecnologies{
+        position: absolute;
+        right: 0;
+        justify-content:right;
 
+        .reactIcon, .nextIcon{
+            width: 4rem;
+        }
+
+        @media (max-width: 600px){
+            display: grid;
+            flex-direction: column;
+        }
+        
+
+    }
+
+
+
+    img{
+        right: 10rem;
+        position: relative;
+        margin:  1rem;
+        width: 6rem;
+        @media (max-width: 600px){
+            right: 0rem;
+            width: 3rem;
+        }
+
+    }
 
     @media (max-width: 600px) {
         padding-left: 2rem;

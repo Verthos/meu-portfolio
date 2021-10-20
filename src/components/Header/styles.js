@@ -9,7 +9,6 @@ export const StyledHeader = styled.header`
     z-index: 2;
     display: flex;
     align-items: left;
-    
     .false{
         transition: all 0.5s;
         filter: opacity(0.3);
