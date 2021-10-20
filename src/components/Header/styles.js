@@ -11,15 +11,20 @@ export const StyledHeader = styled.header`
     
     
     .lingua{
+        position: absolute;
         display: flex;
+        right: 1rem;
+        top: 1rem;
     }
     .false{
         transition: filter 0.5s;
         filter: opacity(0.3);
         }
 
-    img{
 
+    img{
+        
+        right: 0;
         margin: 0.2rem;
         width: 2rem;
         border-radius: 2rem;
@@ -114,8 +119,7 @@ export const NavLinks = styled.ul`
         }
 
       
-    }
-        
+    }        
 
 `
 

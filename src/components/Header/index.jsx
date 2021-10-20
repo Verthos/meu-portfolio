@@ -1,11 +1,16 @@
 import { useState } from "react";
 import { Hamburger, NavLinks, StyledHeader } from "./styles"
 import { Link } from "react-scroll";
+import { useLanguage } from "../../hooks/useLanguage"
+
+import ptbr from "../../assets/pt-br.jpg"
+import en from "../../assets/en.jpg"
 
 
 export function Header() {
     
     const [meuIsOpen, setMenuIsOpen] = useState(false)
+    const lang = useLanguage();
     
 
     return(
@@ -28,6 +33,14 @@ export function Header() {
                     <div className="line"></div>
                 </Hamburger>
             </nav>
+
+            <div className="lingua">
+                <img onClick={() => lang.handleNewLanguage("ptbr")} src={ptbr} alt="bandeira BR" />
+                <img onClick={() => lang.handleNewLanguage("en")} src={en} alt="bandeira UK" />
+            </div>
+
+
+
 
         </StyledHeader>
     )
