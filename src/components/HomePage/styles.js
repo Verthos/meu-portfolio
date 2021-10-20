@@ -26,7 +26,7 @@ export const StyledDiv = styled.div`
         @media (max-width: 600px){
             display: grid;
             flex-direction: column;
-            right: 3rem;
+            right: 1rem;
         }
         
 
