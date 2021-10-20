@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const StyledDiv = styled.div`
-    background: var(--shape);
     height: 60vh;
     padding-left: 10rem; 
     padding-top: 20rem;
@@ -16,52 +15,6 @@ export const StyledDiv = styled.div`
         padding-left: 2rem;
         padding-top: 20rem;
     }
-
-    
-
-    
-    .bispo{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(30deg, -30deg);
-        width: 30rem;
-        right: 10vw;
-        top: 20vw;
-        @media (max-width: 1200px) {
-            display: none;
-        }
-    }
-
-    .dama{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(120deg, -120deg);
-        right: 10vw;
-        top: 5rem; 
-        width: 10rem;
-        @media (max-width: 1200px) {
-            display: none;
-        }
-        
-    }
-
-    .cavalo{
-        opacity: 5%;
-        position: absolute;
-        transform: skew(120deg, -120deg);
-        left: 20vw;
-        top: 30rem; 
-        width: 15rem;
-        @media (max-width: 1200px) {
-            width: 22rem;
-            transform: none;
-            top: 8rem;
-            left: 10vw;
-            opacity: 10%;
-        }
-    }
-
-    
 
     
         

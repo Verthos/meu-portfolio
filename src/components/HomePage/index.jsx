@@ -1,7 +1,6 @@
 import { StyledDiv, StyledButton } from "./styles";
 import { Link } from "react-scroll";
 import { useLanguage } from "../../hooks/useLanguage";
-
 export function Home() {
 
     const lang = useLanguage();

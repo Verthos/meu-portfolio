@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const StyledDiv = styled.div`
-    background: var(--shape);
     min-height: 130vh;
     padding-top: 4rem;
     align-items: center;

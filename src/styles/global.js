@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-
 export const GlobalStyle = createGlobalStyle`
 
 :root {
@@ -41,10 +40,9 @@ html {
 
 
 body {
-    
+
     width: calc(100vw - (100vw - 100%));
-    background: var(--background);
-    background-image: url("../assets/matrix-numbers.jpg");
+    background-color: var(--shape);
     -webkit-font-smoothing: antialiased;
 }
 

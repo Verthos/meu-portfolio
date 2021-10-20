@@ -1,8 +1,9 @@
 import styled from "styled-components"
+import dark from "../../assets/darkbackground.png"
 
 export const StyledFooter = styled.footer`
-    
-    background: var(--gray);
+    background-color: #00020a;
+    background-image: url(${dark});
     width: 100%;
     min-height: 60vh;
     bottom: 0;

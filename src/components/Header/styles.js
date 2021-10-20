@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import dark from "../../assets/darkbackground.png"
+
 
 export const StyledHeader = styled.header`
     position: fixed;
-    background: var(--gray);
+    background-color: #00020a;
+    background-image: url(${dark});
     width: 100%;
     height: 8vh;
     z-index: 2;
@@ -99,7 +102,8 @@ export const NavLinks = styled.ul`
     @media (max-width: 768px){
         left: 0;
         position: fixed;
-        background: var(--gray);
+        background-color: #00020a;
+        background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
         height: 100vh;
         width: 100%;
         flex-direction: column;

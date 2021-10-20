@@ -2,7 +2,6 @@ import { StyledDiv } from "./styles";
 import {texts} from "../../data/data.json"
 import { useLanguage } from "../../hooks/useLanguage"
 
-
 export function WhoAmI() {
     
     const lang = useLanguage();
@@ -10,7 +9,6 @@ export function WhoAmI() {
     if(lang.language === "en"){
         return( 
             <StyledDiv id="sobre">
-                
                 <section>
                     <span>Who am i</span>
                 </section>
