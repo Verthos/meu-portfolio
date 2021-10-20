@@ -8,7 +8,6 @@ export const StyledHeader = styled.header`
     z-index: 2;
     display: flex;
     align-items: left;
-    justify-content: space-around;
     
     
     .lingua{
@@ -61,8 +60,8 @@ export const Hamburger = styled.div`
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    left: 10%;
     top: 1.5rem;
+    left: 1.5rem;
     display: none;
 
     .line{
@@ -94,8 +93,8 @@ export const NavLinks = styled.ul`
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        //clip-path: circle(100px at 90% -10%);
-        //-webkit-clip-path: circle(100px at 5% -10%);
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 5% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
     
@@ -108,8 +107,8 @@ export const NavLinks = styled.ul`
             }
 
         &.isOpen{
-            //clip-path: circle(1000px at 90% -10%);
-            //-webkit-clip-path: circle(1000px at 5% -10%);
+            clip-path: circle(1000px at 90% -10%);
+            -webkit-clip-path: circle(1000px at 5% -10%);
             pointer-events: all
             
         }

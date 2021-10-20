@@ -1,21 +1,12 @@
-import {  NavLinks, StyledHeader } from "./styles"
+import { useState } from "react";
+import { Hamburger, NavLinks, StyledHeader } from "./styles"
 import { Link } from "react-scroll";
 
 
 export function Header() {
     
-    //const [openMenu] = useState("isClosed")
+    const [meuIsOpen, setMenuIsOpen] = useState(false)
     
-
-    //const handleIsOpen = function(){
-        //if(openMenu !== "isOpen"){
-          //  setOpenMenu("isOpen")
-        //}else{
-        //    setOpenMenu("isClosed")
-      //  }
-    //}
-
-
 
     return(
 
@@ -23,13 +14,19 @@ export function Header() {
         <StyledHeader>
               
             <nav className="menu">
-                <NavLinks>
-                    <li><Link to="home" smooth={true} duration={1000}>Home</Link></li>
-                    <li><Link to="sobre" smooth={true} duration={1000}>Sobre</Link></li>
-                    <li><Link to="oqfaco" smooth={true} duration={1000}>Skills</Link></li>
-                    <li><Link to="portfolio" smooth={true} duration={1000}>Portfolio</Link></li>
-                    <li><Link to="contato" smooth={true} duration={1000}>Contato</Link></li>
-                </NavLinks>  
+                <NavLinks className={meuIsOpen? "isOpen" : "isClosed"}>
+                    <li><Link onClick={() => setMenuIsOpen(!meuIsOpen)} to="home" smooth={true} duration={1000}>Home</Link></li>
+                    <li><Link onClick={() => setMenuIsOpen(!meuIsOpen)} to="sobre" smooth={true} duration={1000}>Sobre</Link></li>
+                    <li><Link onClick={() => setMenuIsOpen(!meuIsOpen)} to="oqfaco" smooth={true} duration={1000}>Skills</Link></li>
+                    <li><Link onClick={() => setMenuIsOpen(!meuIsOpen)} to="portfolio" smooth={true} duration={1000}>Portfolio</Link></li>
+                    <li><Link onClick={() => setMenuIsOpen(!meuIsOpen)} to="contato" smooth={true} duration={1000}>Contato</Link></li>
+                </NavLinks>
+
+                <Hamburger onClick={() => setMenuIsOpen(!meuIsOpen)}>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                </Hamburger>
             </nav>
 
         </StyledHeader>
