@@ -22,11 +22,10 @@ export function Header() {
 
     const lang = useLanguage();
 
-    return(
-
-        //Componente com nav utilizando react-scroll para animação e navegação entre os componentes da pagina.
+    return(h1)
+        /*Componente com nav utilizando react-scroll para animação e navegação entre os componentes da pagina.
         <StyledHeader>
-              
+            /
             <nav className="menu">
                 <Hamburger onClick={() => handleIsOpen()}>
                     <div className="line"></div>
@@ -42,7 +41,7 @@ export function Header() {
                 </NavLinks>  
             </nav>
 
-
+        
             <nav className="lingua">
                 <div className={lang.ptbr}>
                     <img src={ptbr} alt="bandeira-brasil" onClick={() => lang.handleNewLanguage("ptbr")}/>
@@ -54,5 +53,7 @@ export function Header() {
             </nav>
 
         </StyledHeader>
-    )
+    )*/
+
+    
 }
