@@ -1,6 +1,6 @@
 import { Hamburger, StyledHeader, NavLinks } from "./styles"
 import { Link } from "react-scroll"
-import { useLanguage } from "../../hooks/useLanguage";
+//import { useLanguage } from "../../hooks/useLanguage";
 import en from "../../assets/en.jpg"
 import ptbr from "../../assets/pt-br.jpg"
 
@@ -9,7 +9,7 @@ export function Header() {
 
 
 
-    const lang = useLanguage();
+    //const lang = useLanguage();
 
     return(
         <StyledHeader>
