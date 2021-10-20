@@ -107,7 +107,6 @@ export const NavLinks = styled.ul`
             }
 
         &.isOpen{
-
             pointer-events: all
         }
 
