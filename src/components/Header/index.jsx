@@ -11,13 +11,7 @@ export function Header() {
     const [openMenu, setOpenMenu] = useState("isClosed")
     
 
-    const handleIsOpen = function(){
-        if(openMenu !== "isOpen"){
-            setOpenMenu("isOpen")
-        }else{
-            setOpenMenu("isClosed")
-        }
-    }
+  
 
 
     const lang = useLanguage();
@@ -29,17 +23,17 @@ export function Header() {
         <StyledHeader>
             
             <nav className="menu">
-                <Hamburger onClick={() => handleIsOpen()}>
+                <Hamburger>
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
                 </Hamburger>
                 <NavLinks className={openMenu}>
-                    <li><Link onClick={() => handleIsOpen()} to="home" smooth={true} duration={1000}>Home</Link></li>
-                    <li><Link onClick={() => handleIsOpen()} to="sobre" smooth={true} duration={1000}>Sobre</Link></li>
-                    <li><Link onClick={() => handleIsOpen()} to="oqfaco" smooth={true} duration={1000}>Skills</Link></li>
-                    <li><Link onClick={() => handleIsOpen()} to="portfolio" smooth={true} duration={1000}>Portfolio</Link></li>
-                    <li><Link onClick={() => handleIsOpen()} to="contato" smooth={true} duration={1000}>Contato</Link></li>
+                    <li><Link  to="home" smooth={true} duration={1000}>Home</Link></li>
+                    <li><Link  to="sobre" smooth={true} duration={1000}>Sobre</Link></li>
+                    <li><Link  to="oqfaco" smooth={true} duration={1000}>Skills</Link></li>
+                    <li><Link  to="portfolio" smooth={true} duration={1000}>Portfolio</Link></li>
+                    <li><Link  to="contato" smooth={true} duration={1000}>Contato</Link></li>
                 </NavLinks>  
             </nav>
 
