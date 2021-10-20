@@ -44,6 +44,7 @@ body {
     
     width: calc(100vw - (100vw - 100%));
     background: var(--background);
+    background-image: url("../assets/matrix-numbers.jpg");
     -webkit-font-smoothing: antialiased;
 }
 

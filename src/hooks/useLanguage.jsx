@@ -15,11 +15,11 @@ export function LanguageProvider({children}) {
             setLanguage(argument);
 
             if(argument === "ptbr"){
-                setPtbr("isActive");
-                setEn("false");
+                setPtbr(true);
+                setEn(false);
             }else{
-                setEn("isActive");
-                setPtbr("false");
+                setEn(true);
+                setPtbr(false);
             }
 
         }else{

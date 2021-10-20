@@ -9,18 +9,18 @@ export const StyledHeader = styled.header`
     display: flex;
     align-items: left;
     
-    
+    .false{
+        transition: all 0.5s;
+        filter: opacity(0.3);
+        box-shadow: none;
+        }
     .lingua{
         position: absolute;
         display: flex;
         right: 1rem;
         top: 1rem;
     }
-    .false{
-        transition: filter 0.5s;
-        filter: opacity(0.3);
-        }
-
+    
 
     img{
         
@@ -30,13 +30,18 @@ export const StyledHeader = styled.header`
         border-radius: 2rem;
         cursor: pointer;
         transition: transform 1s;
+        box-shadow: 0rem 0rem 0.1rem 0.1rem var(--cyan);
 
         &:hover{
             filter: brightness(1.2);
             transform: skew(20deg, -20deg);
         }
+
+        
         
     }
+
+    
 
     nav{
 

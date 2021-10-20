@@ -35,8 +35,8 @@ export function Header() {
             </nav>
 
             <div className="lingua">
-                <img onClick={() => lang.handleNewLanguage("ptbr")} src={ptbr} alt="bandeira BR" />
-                <img onClick={() => lang.handleNewLanguage("en")} src={en} alt="bandeira UK" />
+                <img onClick={() => lang.handleNewLanguage("ptbr")} src={ptbr} alt="bandeira BR" className={lang.ptbr ? "active" : "false"}/>
+                <img onClick={() => lang.handleNewLanguage("en")} src={en} alt="bandeira UK" className={lang.en ? "active" : "false"}/>
             </div>
 
 
