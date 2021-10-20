@@ -31,7 +31,7 @@ export function LanguageProvider({children}) {
 
     return(
         
-        <LanguageContext.Provider value={{handleNewLanguage, setLanguage, language, ptbr, en}}>
+        <LanguageContext.Provider value={handleNewLanguage, setLanguage, language, ptbr, en}>
             {children}
         </LanguageContext.Provider>
     )
