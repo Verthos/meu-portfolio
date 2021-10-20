@@ -1,6 +1,7 @@
 {
-  "name": "processo-seletivo",
+  "name": "meu-portfolio",
   "version": "0.1.0",
+  "homepage":"meu-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
