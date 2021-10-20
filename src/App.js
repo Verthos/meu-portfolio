@@ -11,7 +11,6 @@ export function App() {
   return (
     <LanguageProvider>
 
-    <Header/>
     <Home/>
     <WhoAmI/>
     <Skills/>
