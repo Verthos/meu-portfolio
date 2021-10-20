@@ -1,31 +1,31 @@
-//import { Hamburger, NavLinks, StyledHeader } from "./styles"
-//import { Link } from "react-scroll";
-//import ptbr from "../../assets/pt-br.jpg"
-//import en from "../../assets/en.jpg"
-//import { useLanguage } from "../../hooks/useLanguage";
-//import { useState } from "react/cjs/react.development";
+import { Hamburger, NavLinks, StyledHeader } from "./styles"
+import { Link } from "react-scroll";
+import ptbr from "../../assets/pt-br.jpg"
+import en from "../../assets/en.jpg"
+import { useLanguage } from "../../hooks/useLanguage";
+import { useState } from "react/cjs/react.development";
 
 
 export function Header() {
     
-    //const [openMenu, setOpenMenu] = useState("isClosed")
+    const [openMenu, setOpenMenu] = useState("isClosed")
     
 
-    //const handleIsOpen = function(){
-        //if(openMenu !== "isOpen"){
-            //setOpenMenu("isOpen")
-       // }else{
-        //    setOpenMenu("isClosed")
-      //  }
-   // }
+    const handleIsOpen = function(){
+        if(openMenu !== "isOpen"){
+            setOpenMenu("isOpen")
+        }else{
+            setOpenMenu("isClosed")
+        }
+    }
 
 
-  //  const lang = useLanguage();
+    const lang = useLanguage();
 
     return(
-        <h1>teste</h1>
-    )
-        /*Componente com nav utilizando react-scroll para animação e navegação entre os componentes da pagina.
+        
+
+        //Componente com nav utilizando react-scroll para animação e navegação entre os componentes da pagina.
         <StyledHeader>
             /
             <nav className="menu">
@@ -55,7 +55,7 @@ export function Header() {
             </nav>
 
         </StyledHeader>
-    )*/
+    )
 
     
 }
