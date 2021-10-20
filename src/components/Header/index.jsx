@@ -9,7 +9,7 @@ export function Header() {
     const [openMenu, setOpenMenu] = useState("isClosed")
     
 
-    const handleIsOpen = function(){
+    const handleIsOpen = function(openMenu){
         if(openMenu !== "isOpen"){
             setOpenMenu("isOpen")
         }else{
