@@ -115,6 +115,7 @@ export const NavLinks = styled.ul`
             //clip-path: circle(1000px at 90% -10%);
             //-webkit-clip-path: circle(1000px at 5% -10%);
             pointer-events: all
+            
         }
 
       
