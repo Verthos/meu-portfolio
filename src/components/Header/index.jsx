@@ -13,7 +13,7 @@ export function Header() {
 
     //const handleIsOpen = function(){
         //if(openMenu !== "isOpen"){
-            setOpenMenu("isOpen")
+            //setOpenMenu("isOpen")
        // }else{
         //    setOpenMenu("isClosed")
       //  }
