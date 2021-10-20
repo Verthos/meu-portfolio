@@ -1,4 +1,4 @@
-import { Hamburger, StyledHeader } from "./styles"
+import { Hamburger, StyledHeader, NavLinks } from "./styles"
 import { Link } from "react-scroll"
 //import { useLanguage } from "../../hooks/useLanguage";
 //import { useState } from "react/cjs/react.development";
