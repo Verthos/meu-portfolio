@@ -5,9 +5,7 @@ import { createContext, useState, useContext} from "react";
 const LanguageContext = createContext({});
 
 export function LanguageProvider({children}) {
-    
-    const [ptbr, setPtbr] = useState("isActive")
-    const [en, setEn] = useState("false")
+ 
     const [language, setLanguage] = useState("ptbr");
 
     function handleNewLanguage(argument){

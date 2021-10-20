@@ -26,8 +26,8 @@ export function Header() {
                 <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
             </NavLinks>
 
-            <img src={ptbr} alt="bandeira brasil"  onClick={lang.setLanguage("ptbr")}/>
-            <img src={en} alt="bandeira reino unido" onClick={lang.setLanguage("en")}/>
+            <img src={ptbr} alt="bandeira brasil"  onClick={lang.handleNewLanguage("ptbr")}/>
+            <img src={en} alt="bandeira reino unido" onClick={lang.handleNewLanguage("en")}/>
         </StyledHeader>
 
     )
