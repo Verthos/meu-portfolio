@@ -7,8 +7,6 @@ import ptbr from "../../assets/pt-br.jpg"
 
 export function Header() {
 
-
-
     const lang = useLanguage();
 
     return(
@@ -25,9 +23,9 @@ export function Header() {
                 <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
                 <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
             </NavLinks>
-
-            <img src={ptbr} alt="bandeira brasil"  onClick={lang.handleNewLanguage("ptbr")}/>
-            <img src={en} alt="bandeira reino unido" onClick={lang.handleNewLanguage("en")}/>
+            
+            <button><img src={ptbr} alt="bandeira brasil"  onClick={lang.handleNewLanguage("ptbr")}/></button>
+            <button><img src={en} alt="bandeira reino unido" onClick={lang.handleNewLanguage("en")}/></button>
         </StyledHeader>
 
     )
