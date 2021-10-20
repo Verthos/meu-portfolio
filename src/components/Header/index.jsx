@@ -1,28 +1,28 @@
 import { Hamburger, StyledHeader, NavLinks } from "./styles"
 import { Link } from "react-scroll"
 //import { useLanguage } from "../../hooks/useLanguage";
-//import { useState } from "react/cjs/react.development";
+import { useState } from "react/cjs/react.development";
 
 
 export function Header() {
     
-    //const [openMenu, setOpenMenu] = useState("isClosed")
+    const [openMenu, setOpenMenu] = useState("isClosed")
     
 
-    //const handleIsOpen = function(){
-        //if(openMenu !== "isOpen"){
-            //setOpenMenu("isOpen")
-        //}else{
-            //setOpenMenu("isClosed")
-        //}
-    //}
+    const handleIsOpen = function(){
+        if(openMenu !== "isOpen"){
+            setOpenMenu("isOpen")
+        }else{
+            setOpenMenu("isClosed")
+        }
+    }
 
 
     //const lang = useLanguage();
 
     return(
         <StyledHeader>
-            <Hamburger>
+            <Hamburger onClick={handleIsOpen(openMenu)}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
