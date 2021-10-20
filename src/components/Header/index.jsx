@@ -21,10 +21,10 @@ export function Header() {
         
             <nav className="lingua">
                 <div className={lang.ptbr}>
-                    <img src={ptbr} alt="bandeira-brasil" onClick={() => lang.handleNewLanguage("ptbr")}/>
+                    <img src={ptbr} alt="bandeira-brasil" />
                 </div>
                 <div className={lang.en}>
-                    <img src={en} alt="bandeira-ingraterra" onClick={() => lang.handleNewLanguage("en")}/>
+                    <img src={en} alt="bandeira-ingraterra" />
                 </div>
                 
             </nav>
