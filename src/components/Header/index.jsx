@@ -1,4 +1,5 @@
 import { Hamburger, StyledHeader } from "./styles"
+import { Link } from "react-scroll"
 //import { useLanguage } from "../../hooks/useLanguage";
 //import { useState } from "react/cjs/react.development";
 
@@ -26,6 +27,13 @@ export function Header() {
                 <div className="line"></div>
                 <div className="line"></div>
             </Hamburger>
+            <NavLinks>
+                <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
+                <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
+                <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
+                <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
+                <Link to="contato" smooth={true} duration={1000}>Entre em contato</Link>
+            </NavLinks>
         </StyledHeader>
 
     )
