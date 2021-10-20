@@ -1,11 +1,9 @@
 import styled from "styled-components";
-import dark from "../../assets/darkbackground.png"
 
 
 export const StyledHeader = styled.header`
     position: fixed;
     background-color: #00020a;
-    background-image: url(${dark});
     width: 100%;
     height: 8vh;
     z-index: 2;
