@@ -1,19 +1,31 @@
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 import { StyledDiv, StyledButton } from "./styles";
 import { Link } from "react-scroll";
 import { useLanguage } from "../../hooks/useLanguage";
-import JSLogo from "../../assets/jslogo.png"
-import cssLogo from "../../assets/css3.png"
-import nextLogo from "../../assets/next.png"
-import reactLogo from "../../assets/react.png"
-import reduxLogo from "../../assets/redux.png"
+import JSLogo from "../../assets/jslogo.png";
+import cssLogo from "../../assets/css3.png";
+import nextLogo from "../../assets/next.png";
+import reactLogo from "../../assets/react.png";
+import reduxLogo from "../../assets/redux.png";
 
 
 
 
-
-export function Home() {
+export default function Home() {
 
     const lang = useLanguage();
+    const controls = useAnimation()
+
+    
+    useEffect(() => {
+        controls.start(i => ({
+            y: 0 ,
+            transition: {delay: i * 0.1, ease: "easeOut"},
+        }))
+      }, [controls])
+
+
 
     if(lang.language === "en"){
         
@@ -21,13 +33,13 @@ export function Home() {
         return( 
             <StyledDiv id="home">
 
-            <div className="tecnologies">
-                <img src={JSLogo} alt="js-logo"/>
-                <img src={cssLogo} alt="css-logo"/>
-                <img className="reactIcon" src={reactLogo} alt="react-logo"/>
-                <img className="nextIcon" src={nextLogo} alt="next-logo" />
-                <img src={reduxLogo} alt="redux-logo"/>
-            </div>
+            <motion.div className="tecnologies">
+                <motion.img initial={{y:-60}} custom={5} animate={controls} src={JSLogo} alt="js-logo"/>
+                <motion.img initial={{y:-60}} custom={6} animate={controls} src={cssLogo} alt="css-logo"/>
+                <motion.img initial={{y:-60}} custom={7} animate={controls} className="reactIcon" src={reactLogo} alt="react-logo"/>
+                <motion.img initial={{y:-60}} custom={8} animate={controls} className="nextIcon" src={nextLogo} alt="next-logo" />
+                <motion.img initial={{y:-60}} custom={9} animate={controls} src={reduxLogo} alt="redux-logo"/>
+            </motion.div>
             
 
                 <div>
@@ -42,13 +54,13 @@ export function Home() {
         return( 
             <StyledDiv id="home">
             
-            <div className="tecnologies">
-                <img src={JSLogo} alt="js-logo"/>
-                <img src={cssLogo} alt="css-logo"/>
-                <img className="reactIcon" src={reactLogo} alt="react-logo"/>
-                <img className="nextIcon" src={nextLogo} alt="next-logo" />
-                <img src={reduxLogo} alt="redux-logo"/>
-            </div>
+            <motion.div className="tecnologies">
+                <motion.img initial={{y:-450}} custom={5} animate={controls} src={JSLogo} alt="js-logo"/>
+                <motion.img initial={{y:-450}} custom={6} animate={controls} src={cssLogo} alt="css-logo"/>
+                <motion.img initial={{y:-450}} custom={7} animate={controls} className="reactIcon" src={reactLogo} alt="react-logo"/>
+                <motion.img initial={{y:-450}} custom={8} animate={controls} className="nextIcon" src={nextLogo} alt="next-logo" />
+                <motion.img initial={{y:-450}} custom={9} animate={controls} src={reduxLogo} alt="redux-logo"/>
+            </motion.div>
 
 
                 <div>

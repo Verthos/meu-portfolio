@@ -57,9 +57,7 @@ export const StyledHeader = styled.header`
             font-size: 1.5rem;
             color: var(--shape);
             margin: 0 auto;
-            &:first-child{
-                margin-left: 3rem;
-            }
+            
         }
         
     }
@@ -96,7 +94,6 @@ export const NavLinks = styled.ul`
     justify-content: space-around;
     align-items: center;
 
-
     @media (max-width: 768px){
         left: 0;
         position: fixed;
@@ -108,9 +105,7 @@ export const NavLinks = styled.ul`
         clip-path: circle(100px at 90% -10%);
         -webkit-clip-path: circle(100px at 5% -10%);
         transition: all 1s ease-out;
-        pointer-events: none;
-    
-                
+        pointer-events: none;       
             a{
                 cursor: pointer;
                 text-decoration: none;
@@ -121,12 +116,26 @@ export const NavLinks = styled.ul`
         &.isOpen{
             clip-path: circle(1000px at 90% -10%);
             -webkit-clip-path: circle(1000px at 5% -10%);
-            pointer-events: all
-            
+            pointer-events: all  
         }
 
       
-    }        
+    }
+    li{
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        &:first-child{
+            margin-left: 3rem;
+        }
+        &:hover{
+            transform: perspective(300px) translateZ(2rem);
+            transition: all 0.2s;
+            background: #11121a;
+        }
+    }
 
 `
 

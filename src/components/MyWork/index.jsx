@@ -3,6 +3,8 @@ import { useLanguage } from "../../hooks/useLanguage"
 import ignews from "../../assets/ignews.png"
 import github_explorer from "../../assets/github-explorer.png"
 import meuportfolio from "../../assets/meuportfolio.png"
+import worldtravel from "../../assets/worldtravel.png"
+
 
 export function MyWork() {
 
@@ -18,6 +20,26 @@ export function MyWork() {
             
                 <Container>
                 <div>
+
+                        
+                    <div className="worldTravel">
+                        <p>World travel, blog</p>
+                            <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/world_travel"><img src={worldtravel} alt="worldtravel" /></a>
+                            <ul>
+                                <p>Tecnlogies</p>
+                                <li>Next JS</li>
+                                <li>Prismic CMS</li>
+                                <li>APIs rest</li>
+                                <li>SSR e SSG</li>
+                                <li>SCSS</li>
+                                
+                            </ul>
+
+
+                    </div>
+                        
+
+
                         <p>Meu portfolio</p>
                         <a rel="noreferrer" target="_blank" href="https://github.com/Verthos/meu-portfolio"><img src={meuportfolio} alt="portfolio" /></a>
                         <ul>
