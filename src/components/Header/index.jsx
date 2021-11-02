@@ -2,16 +2,11 @@ import { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { Hamburger, NavLinks, StyledHeader } from "./styles"
 import { Link } from "react-scroll";
-import { useLanguage } from "../../hooks/useLanguage"
-
-import ptbr from "../../assets/pt-br.jpg"
-import en from "../../assets/en.jpg"
 
 
 export function Header() {
     
     const [meuIsOpen, setMenuIsOpen] = useState(false)
-    const lang = useLanguage();
     const controls = useAnimation()
 
     useEffect(() => {
@@ -43,15 +38,17 @@ export function Header() {
                     <div className="line"></div>
                 </Hamburger>
             </nav>
+      
+        </StyledHeader>
+    )
+}
 
+
+
+/* componente para troca de linguagem:
             <div className="lingua">
                 <img onClick={() => lang.handleNewLanguage("ptbr")} src={ptbr} alt="bandeira BR" className={lang.ptbr ? "active" : "false"}/>
                 <img onClick={() => lang.handleNewLanguage("en")} src={en} alt="bandeira UK" className={lang.en ? "active" : "false"}/>
             </div>
 
-
-
-
-        </StyledHeader>
-    )
-}
+*/

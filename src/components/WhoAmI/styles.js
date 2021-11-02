@@ -1,29 +1,25 @@
 import styled from "styled-components"
 
 export const StyledDiv = styled.div`
-    min-height: 80vh;
-    padding-left: 5rem; 
-    padding-top: 4rem;
-    padding-right: 10rem;
+    min-height: 120vh;
+    width: 80vw;
+    max-width: 80vw;
     align-items: center;
     justify-content: right;
-    display: grid;
+    display: flex;    
 
+    
     @media(max-width: 600px){
             padding-left: 2rem;
             justify-content: left;
             padding-right: 2rem;
-            
         }
 
     p{
         font-size: 1.5rem;
         color: var(--black);
-        text-align: left;
         line-height: 2rem;
-        margin-bottom: 5rem;
-        margin-top: 1rem;
-        padding-right: 10rem;
+        
 
         @media(max-width: 600px){
             padding-left: 1rem;
@@ -36,10 +32,9 @@ export const StyledDiv = styled.div`
 
 
     div{
-
-    width: 50vw;
-
+        
         width: 40vw;
+        
         h1{
             line-height: 10rem;
             color: var(--black);
@@ -75,15 +70,12 @@ export const StyledDiv = styled.div`
         h1{
             line-height: 10rem;
             color: var(--black);
-            text-align: left;
             font-size: 5rem;
         }
 
         h2{
             font-weight: normal;
             color: var(--black);
-            text-align: left;
-            line-height: 1rem;
         }
     }
 
@@ -94,15 +86,19 @@ export const StyledDiv = styled.div`
 
 
     section{
+        
         position: relative;
-        top: 10rem;
+        top: -20rem;
         span{
+            
             font-weight: bold;
             position: absolute;
             font-size: 10rem;
             opacity: 5%;
             text-align: left;
             color: var(--black);
+            width: 50rem;
+
             
         }
         @media (max-width: 600px) {
@@ -110,6 +106,16 @@ export const StyledDiv = styled.div`
         }
     }
 
+    .parallax{
+        position: absolute;
+        right: 0;
+        opacity: 5%;
+        width: 100vw;
+        height: 50vw;
+        background: blue;
+        
+    }
+    
+
     
 `
-
