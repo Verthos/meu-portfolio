@@ -50,7 +50,7 @@ export function Home() {
                     <h2>William Peterson Kszan<span>.</span></h2>
                     <h1>Front-End<br /> Developer<span>!</span></h1>
     
-                    <Link to="contato" smooth={true} duration={1000}><StyledButton>Entre em contato</StyledButton></Link>
+                    <Link to="contato" smooth={true} duration={1000}><StyledButton style={{transform: `translateY(${offsetY * 0.3}px)`}}>Entre em contato</StyledButton></Link>
                 </div>
                         
             </StyledDiv>

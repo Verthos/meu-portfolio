@@ -1,12 +1,24 @@
+import { useEffect, useState } from "react";
 import { StyledDiv, Container } from "./styles";
 import dataJson from "../../data/data.json";
 
 export function Skills() {
+
+  const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset)
+    useEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+  
+      return() => window.removeEventListener("scroll", handleScroll)
+    },[])
+
+
+
   return (
     <StyledDiv id="oqfaco">
 
       <section>
-        <span>HABILIDADES</span>
+        <span style={{transform: `translateX(${offsetY * -0.3}px)`}}>HABILIDADES</span>
       </section>
 
       <h2>Minhas</h2>

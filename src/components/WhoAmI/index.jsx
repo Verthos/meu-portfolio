@@ -20,7 +20,7 @@ export function WhoAmI() {
             <section>
                 <span
                 className="backgroundDiv"
-                style={{transform: `translateY(${offsetY * 0.3}px)`}}>
+                style={{transform: `translateX(${offsetY * 0.3}px)`}}>
                     Quem sou
                 </span>
             </section>

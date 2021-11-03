@@ -66,6 +66,7 @@ export const StyledDiv = styled.div`
 
 
     p{
+        position: relative;
 
         h1{
             line-height: 10rem;
@@ -105,17 +106,7 @@ export const StyledDiv = styled.div`
             display: none;
         }
     }
-
-    .parallax{
-        position: absolute;
-        right: 0;
-        opacity: 5%;
-        width: 100vw;
-        height: 50vw;
-        background: blue;
-        
-    }
-    
+   
 
     
 `

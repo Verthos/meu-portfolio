@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const StyledDiv = styled.div`
     height: 70vh;
-    padding: 4rem;
     padding-left: 10rem;
     justify-content: center;
     height: min-content;

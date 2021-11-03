@@ -37,8 +37,6 @@ export const StyledHeader = styled.header`
             transform: skew(20deg, -20deg);
         }
 
-        
-        
     }
 
     
@@ -131,9 +129,9 @@ export const NavLinks = styled.ul`
             margin-left: 3rem;
         }
         &:hover{
-            transform: perspective(300px) translateZ(2rem);
             transition: all 0.2s;
             background: #11121a;
+            transform: perspective(200px) translateZ(1rem);
         }
     }
 

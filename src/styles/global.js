@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle`
     --shape: #FFFFFF;
     --green: #04D361;
     --soft-black: #262626;
-
 }
 
 * { 
@@ -21,7 +20,6 @@ export const GlobalStyle = createGlobalStyle`
 
 html {
     overflow-x: hidden;
-
     @media (max-width: 1080px) {
             font-size: 93.75%; //15px
         }
@@ -38,7 +36,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: calc(100vw - (100vw - 100%));
     -webkit-font-smoothing: antialiased;
-
 }
 
 

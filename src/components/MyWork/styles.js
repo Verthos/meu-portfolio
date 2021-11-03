@@ -49,7 +49,6 @@ export const StyledDiv = styled.div`
             font-size: 10rem;
             opacity: 5%;
             color: var(--black);
-            right: 20rem;
         }
 
         @media (max-width: 600px) {

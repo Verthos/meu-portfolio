@@ -135,6 +135,10 @@ export const StyledButton = styled.button`
     cursor: pointer;
     z-index: 1;
     position: relative;
+    &:hover{
+            transition: all 0.2s;
+            background: #11121a;
+        }
 
 `
 
