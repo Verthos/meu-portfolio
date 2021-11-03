@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.js": "/meu-portfolio/static/js/main.ffceefcd.chunk.js",
-    "main.js.map": "/meu-portfolio/static/js/main.ffceefcd.chunk.js.map",
+    "main.js": "/meu-portfolio/static/js/main.bc7c4dbc.chunk.js",
+    "main.js.map": "/meu-portfolio/static/js/main.bc7c4dbc.chunk.js.map",
     "runtime-main.js": "/meu-portfolio/static/js/runtime-main.68db393f.js",
     "runtime-main.js.map": "/meu-portfolio/static/js/runtime-main.68db393f.js.map",
-    "static/js/2.a2fa7213.chunk.js": "/meu-portfolio/static/js/2.a2fa7213.chunk.js",
-    "static/js/2.a2fa7213.chunk.js.map": "/meu-portfolio/static/js/2.a2fa7213.chunk.js.map",
+    "static/js/2.9693858d.chunk.js": "/meu-portfolio/static/js/2.9693858d.chunk.js",
+    "static/js/2.9693858d.chunk.js.map": "/meu-portfolio/static/js/2.9693858d.chunk.js.map",
     "index.html": "/meu-portfolio/index.html",
-    "static/js/2.a2fa7213.chunk.js.LICENSE.txt": "/meu-portfolio/static/js/2.a2fa7213.chunk.js.LICENSE.txt",
+    "static/js/2.9693858d.chunk.js.LICENSE.txt": "/meu-portfolio/static/js/2.9693858d.chunk.js.LICENSE.txt",
     "static/media/css3.9f33c557.png": "/meu-portfolio/static/media/css3.9f33c557.png",
-    "static/media/en.185fdc95.jpg": "/meu-portfolio/static/media/en.185fdc95.jpg",
     "static/media/github-explorer.7e4b4adb.png": "/meu-portfolio/static/media/github-explorer.7e4b4adb.png",
     "static/media/ignews.d6b882aa.png": "/meu-portfolio/static/media/ignews.d6b882aa.png",
     "static/media/me_color.1aa24d96.jpg": "/meu-portfolio/static/media/me_color.1aa24d96.jpg",
     "static/media/meuportfolio.4f624a9b.png": "/meu-portfolio/static/media/meuportfolio.4f624a9b.png",
-    "static/media/pt-br.60c5a88e.jpg": "/meu-portfolio/static/media/pt-br.60c5a88e.jpg",
     "static/media/react.dfc4af9e.png": "/meu-portfolio/static/media/react.dfc4af9e.png",
     "static/media/redux.2aa1cbb1.png": "/meu-portfolio/static/media/redux.2aa1cbb1.png",
-    "static/media/worldtravel.2c31311e.png": "/meu-portfolio/static/media/worldtravel.2c31311e.png"
+    "static/media/worldtravel.ac5b5e55.png": "/meu-portfolio/static/media/worldtravel.ac5b5e55.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68db393f.js",
-    "static/js/2.a2fa7213.chunk.js",
-    "static/js/main.ffceefcd.chunk.js"
+    "static/js/2.9693858d.chunk.js",
+    "static/js/main.bc7c4dbc.chunk.js"
   ]
 }
