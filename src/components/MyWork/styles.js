@@ -8,6 +8,8 @@ export const StyledDiv = styled.div`
     display: grid;
 
 
+
+
     h1{
         line-height: 0.7;
         color: var(--black);
@@ -87,9 +89,9 @@ export const StyledButton = styled.button`
 export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 8rem;
     height: min-content;
     max-width: 70vw;
+    justify-content: center;
 
     p{
         font-size: 1.5rem;
@@ -121,6 +123,10 @@ export const Container = styled.div`
             font-size: 1.3rem;
         }
 
+    }
+
+    .projeto{
+        padding: 0 1rem;
     }
     
 `

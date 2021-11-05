@@ -10,6 +10,8 @@ import { Home } from "./components/HomePage";
 import { Skills } from "./components/WhatIDo";
 
 export function App() {
+  
+  
 
 
   return (
