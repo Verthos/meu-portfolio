@@ -16,7 +16,6 @@ export function MyWork() {
     }, []);
 
 
-
   return (
       <StyledDiv id="portfolio">
 
