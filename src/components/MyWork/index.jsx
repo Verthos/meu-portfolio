@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { StyledDiv, StyledButton, Container } from "./styles";
-import ignews from "../../assets/ignews.png";
 import github_explorer from "../../assets/github-explorer.png";
 import meuportfolio from "../../assets/meuportfolio.png";
+import timeControl from "../../assets/time-control.JPG";
+
 
 export function MyWork() {
 
@@ -54,41 +55,12 @@ export function MyWork() {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/Verthos/my-github-explorer"
+              href="https://fem-timecontrol.netlify.app/"
             >
-              <img src={ignews} alt="ignews" />
+              <img src={timeControl} alt="ignews" />
             </a>
           </div>
-          <div className="projeto">
-            <p>Ignews - Curso Ignite</p>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/Verthos/my-github-explorer"
-            >
-              <img src={ignews} alt="ignews" />
-            </a>
-          </div >
-          <div className="projeto">
-            <p>Ignews - Curso Ignite</p>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/Verthos/my-github-explorer"
-            >
-              <img src={ignews} alt="ignews" />
-            </a>
-          </div>
-          <div className="projeto">
-            <p>Ignews - Curso Ignite</p>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/Verthos/my-github-explorer"
-            >
-              <img src={ignews} alt="ignews" />
-            </a>
-          </div>
+
         </Container>
 
         <a

@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const StyledDiv = styled.div`
+
     min-height: 130vh;
     padding-top: 4rem;
     align-items: center;
@@ -90,8 +91,13 @@ export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     height: min-content;
-    max-width: 70vw;
+    width: 60vw;
+    max-width: 60vw;
+    height: 80vh;
     justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2rem 2px var(--soft-black);
+    border-radius: 2rem;
 
     p{
         font-size: 1.5rem;
@@ -126,7 +132,7 @@ export const Container = styled.div`
     }
 
     .projeto{
-        padding: 0 1rem;
+        padding: 0 0.5rem
     }
     
 `
